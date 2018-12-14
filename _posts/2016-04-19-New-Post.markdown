@@ -2,9 +2,9 @@
 layout:     post
 title:      New Post
 author:     Noel Csomay-Shanklin
-tags: 		post template
+tags: 		  Hobbies Hiking
 subtitle:  	Some Short Description of Post
-category:  hobbies
+category:   hobbies
 ---
 <!-- Start Writing Below in Markdown -->
 
