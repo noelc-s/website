@@ -1,10 +1,10 @@
 ---
 layout:     post
 title:      New Post
-author:     Ahmet Cecen
+author:     Noel Csomay-Shanklin
 tags: 		post template
 subtitle:  	Some Short Description of Post
-category:  project1
+category:  hobbies
 ---
 <!-- Start Writing Below in Markdown -->
 
