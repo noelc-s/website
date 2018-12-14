@@ -1,21 +1,21 @@
 # Site settings
-title: Project Pages
+title: Noel Csomay-Shanklin
 description: "An Integrated Scientific Blogging Template"
-url: "https://projectpages.github.io"
+url: "https://noelc-s.github.io"
 
 
 
 
 # Secondary Parameters
-baseurl: "/project-pages"
+baseurl: "/website"
 header-img: img/home-bg.jpg
 headercolor: "#FFFFFF"
 logo: /project-pages/img/logos/Project-Pages-New-Logo-Inverted.png
 
 # Tertiary Parameters
-github_username:  projectpages
-project_repository: project-pages
-disqus_shortname: project-pages
+github_username:  noelc-s
+project_repository: website
+disqus_shortname: noelc-s
 g-analytics: UA-75881392-1
 altmetric: true
 
