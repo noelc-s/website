@@ -1,16 +1,13 @@
 # Site settings
 title: Noel Csomay-Shanklin
-description: "An Integrated Scientific Blogging Template"
+description: ""
 url: "https://noelc-s.github.io"
-
-
-
 
 # Secondary Parameters
 baseurl: "/website"
 header-img: img/home-bg.jpg
-headercolor: "#FFFFFF"
-logo: /website/img/logos/Project-Pages-New-Logo-Inverted.png
+headercolor: "#90dbae"
+logo: /website/img/headshot.png
 
 # Tertiary Parameters
 github_username:  noelc-s
