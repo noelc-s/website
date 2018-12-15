@@ -34,11 +34,11 @@
                     <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
                 </li>
                 {% endif %}{% endif %}{% endif %}{% endfor %}
-                {% for page in site.pages %}{% if page.url contains "projects/" %}{% else %}{% if page.title %}
+								{% for page in site.pages %}{% if page.url contains "projects/" %}{% else %}{% if page.title %}{% if page.disp %}
                 <li>
                     <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
                 </li>
-                {% endif %}{% endif %}{% endfor %}
+                {% endif %}{% endif %}{% endif %}{% endfor %}
             </ul>
         </div>
         <!-- /.navbar-collapse -->

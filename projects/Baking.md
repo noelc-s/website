@@ -1,10 +1,7 @@
 ---
 layout: project
-title: "Hobbies"
-subtitle: "Hiking" "Baking"
-disp: True
-url: Hiking
+title: "Baking"
 description: "Personal Interests Outside of Research"
 header-img: "img/home-bg.jpg"
-category: hobbies
+category: baking
 ---
