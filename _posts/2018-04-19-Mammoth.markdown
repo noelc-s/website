@@ -1,9 +1,9 @@
 ---
 layout:     post
-title:      Hiking
+title:      Hiking in Mammoth
 author:     Noel Csomay-Shanklin
 tags: 		  Hobbies Hiking
-subtitle:  	Some Short Description of Post
+subtitle:  	Climbing in Mammoth
 category:   hiking
 ---
 <!-- Start Writing Below in Markdown -->
