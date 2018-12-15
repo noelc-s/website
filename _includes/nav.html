@@ -34,7 +34,7 @@
                     <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
                 </li>
                 {% endif %}{% endif %}{% endif %}{% endfor %}
-								{% for page in site.pages %}{% if page.url contains "projects/" %}{% else %}{% if page.title %}{% if page.disp %}
+								{% for page in site.pages %}{% if page.url contains "projects/" %}{% else %}{% if page.title %}{% if page.disp contains "True" %}
                 <li>
                     <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
                 </li>
