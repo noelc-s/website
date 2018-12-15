@@ -25,7 +25,7 @@
 								</a>
 								{% for sub in page.subtitle %}
 							  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a style="color:red;" class="dropdown-item" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                <a style="color:red;" class="dropdown-item" href="{{ page.url | prepend: site.baseurl }}">{{ sub }}</a>
 								</div>
 								{% endfor %}
 								</li>
