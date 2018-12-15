@@ -28,6 +28,7 @@
 							  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a style="color:black;" class="dropdown-item" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
 								</div>
+								{% endif %}{% endfor %}
 								{% endfor %}
 								</li>
 								{% else %}{% if page.disp contains "True" %}
