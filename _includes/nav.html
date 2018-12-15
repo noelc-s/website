@@ -18,24 +18,17 @@
                 <li>
                     <a href="{{ site.baseurl }}/">Home</a>
                 </li>
+								{% for page in site.pages %}{% if page.url contains "projects/" %}{% if page.title %}
 								<li class="nav-item dropdown">
 								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								Dropdown
+								page.title
 								</a>
-								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a style="color:red;" class="dropdown-item" href="#">Action</a>
-								<a style="color:blue;" class="dropdown-item" href="#">Another action</a>
-								<div class="dropdown-divider"></div>
-								<a class="dropdown-item" href="#">Something else here</a>
+								{% for sub in page.subtitle %}
+							  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a stlye="color:red;" class="dropdown-item" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
 								</div>
+								{% endfor %}
 								</li>
-				{% for page in site.pages %}{% if page.url contains "projects/" %}{% if page.title %}
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropbdown-toggle" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-                </li>
-								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-												<a class="dropdown-item" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-								</div>
                 {% endif %}{% endif %}{% endfor %}
                 {% for page in site.pages %}{% if page.url contains "projects/" %}{% else %}{% if page.title %}
                 <li>
