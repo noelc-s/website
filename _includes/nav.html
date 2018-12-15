@@ -23,13 +23,13 @@
 								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 												{{ page.title }}
 								</a>
+							  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
 								{% for sub in page.subtitle %}
 								{% for p in site.pages %}{% if p.title contains sub %}
-							  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a style="color:black;" class="dropdown-item" href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
-								</div>
 								{% endif %}{% endfor %}
 								{% endfor %}
+								</div>
 								</li>
 								{% else %}{% if page.disp contains "True" %}
                 <li>
