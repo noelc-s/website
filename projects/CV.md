@@ -1,8 +1,8 @@
 ---
 layout: project
-title: "CV"
+title: "Cinelimb"
 disp: "False"
-description: "Personal Interests Outside of Research"
+description: "Cinematic Robotic Arm"
 header-img: "img/hiking-bg.jpg"
-category: cv
+category: cinelimb
 ---
