@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Hiking in Catalina
+title:      Catalina
 author:     Noel Csomay-Shanklin
 tags: 		  Hobbies Hiking
 category:   hiking

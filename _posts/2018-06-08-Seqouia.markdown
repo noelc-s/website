@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Hiking in Catalina
+title:      Seqouia National Park
 author:     Noel Csomay-Shanklin
 tags: 		  Hobbies Hiking
 category:   hiking

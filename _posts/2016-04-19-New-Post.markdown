@@ -4,7 +4,7 @@ title:      Hiking
 author:     Noel Csomay-Shanklin
 tags: 		  Hobbies Hiking
 subtitle:  	Some Short Description of Post
-category:   hiking
+category:   project1
 ---
 <!-- Start Writing Below in Markdown -->
 
