@@ -11,3 +11,4 @@ category:   cv
 
 See the final report [here](https://cinelimb.gitlab.io/)
 
+<iframe width="560" height="315" src="https://cinelimb.gitlab.io" frameborder="0" allowfullscreen></iframe>
