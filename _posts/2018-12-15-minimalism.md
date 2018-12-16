@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Minimalist
+title:      Minimalism
 date:       2018-12-15 
 author:     Noel Csomay-Shanklin
 tags: 		personal matlab
