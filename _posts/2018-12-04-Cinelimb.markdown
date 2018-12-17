@@ -7,8 +7,6 @@ subtitle:  	Final Deliverable for our CS 4476 Computer Vision Class
 category:   cv
 ---
 <!-- Start Writing Below in Markdown -->
-<iframe width="1170" height="1000" src="https://youtu.be/x6rHYJMCR9k" frameborder="0" allowfullscreen></iframe>
-
 
 See the final report [here](https://cinelimb.gitlab.io/)
 

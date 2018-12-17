@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "School Work"
-subtitle: ["CV", "Robotics"]
+subtitle: ["Cinelimb"]
 disp: "True"
 description: "Work Done for School"
 header-img: "img/home-bg.jpg"
