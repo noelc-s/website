@@ -7,4 +7,4 @@ category:   hiking
 ---
 <!-- Start Writing Below in Markdown -->
 
-<div align="center"><script src="https://embed.github.com/view/3d/projectpages/project-pages/gh-pages/stl/missionTrails.stl"></script></div>
+<div align="center"><script src="https://embed.github.com/view/3d/noelc-s/website/blob/gh-pages/stl/missionTrails.stl"></script></div>
