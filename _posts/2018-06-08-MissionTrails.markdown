@@ -9,4 +9,4 @@ category:   hiking
 <!-- Start Writing Below in Markdown -->
 
 <div align="center"><script src="https://embed.github.com/view/3d/noelc-s/website/gh-pages/stl/missionTrails.stl"></script></div>
-<div align="center"><script src="https://embed.github.com/view/3d/noelc-s/website/gh-pages/stl/ChunkColoredWeb.ply"></script></div>
+<div align="center"><script src="https://embed.github.com/view/3d/noelc-s/website/gh-pages/ply/ChunkColoredWeb.ply"></script></div>
