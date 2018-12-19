@@ -10,13 +10,13 @@ category:   hiking
 
 <iframe src='https://www.gaiagps.com/public/c6OkPlwHDqb7LSehAYKhfjzb?embed=True' style='border:none; overflow-y: hidden; background-color:white; min-width: 320px; max-width:1170px; width:100%; height: 420px;' scrolling='no' seamless='seamless'></iframe>
 
-<button onclick="toggle_show("STL")">Show 3D Terrain Model</button>
+<button onclick="STL()">Show 3D Terrain Model</button>
 
 <div id="STL" align="center">
 <script src="https://embed.github.com/view/3d/noelc-s/website/gh-pages/stl/missionTrails.stl"></script>
 </div>
 
-<button onclick="toggle_show("Path")">Show 3D Path</button>
+<button onclick="Path()">Show 3D Path</button>
 
 <div id="Path" align="center">
 <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/dist/pa-embed-player.min.js" async></script>
@@ -33,8 +33,16 @@ category:   hiking
 <script>
 document.getElementById("STL").style.display = "none"; 
 document.getElementById("Path").style.display = "none"; 
-function toggle_show(div) {
-  var x = document.getElementById(div);
+function Path() {
+  var x = document.getElementById("Path");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+function STL() {
+  var x = document.getElementById("STL");
   if (x.style.display === "none") {
     x.style.display = "block";
   } else {
