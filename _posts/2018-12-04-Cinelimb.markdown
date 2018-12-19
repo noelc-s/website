@@ -4,7 +4,7 @@ title:      Final Report
 author:     Noel Csomay-Shanklin
 tags: 		  School CV
 subtitle:  	Final Deliverable for our CS 4476 Computer Vision Class
-category:   cv
+category:   cinelimb
 ---
 <!-- Start Writing Below in Markdown -->
 
