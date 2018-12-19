@@ -12,12 +12,27 @@ category:   hiking
 
 <button onclick="myFunction()">Show 3D Terrain Model</button>
 
-<div id="myDIV" align="center">
+<div id="STL" align="center">
 <script src="https://embed.github.com/view/3d/noelc-s/website/gh-pages/stl/missionTrails.stl"></script>
 </div>
 
+<button onclick="myFunction()">Show 3D Path</button>
+
+<div id="Path" align="center">
+<script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/dist/pa-embed-player.min.js" async></script>
+<div class="pa-embed-player" style="width:100%; height:480px; display:none;"
+  data-link="https://photos.app.goo.gl/RctJz5NY2vHUfPwMA"
+  data-title="Mission Trails Loop"
+  data-description="New photo · Album by Noel C-S">
+  <img data-src="https://lh3.googleusercontent.com/FDNhpSn4CwxtrXZ0U07ooe4tw4DtrFUEzcG-wNlMWNWjfJLZ1sghjhgroOJpQD8HAS1GLXSsn1SHNhhYRcmTecAT04OmQnu8IqhK6EWB2sSSDuNCDFo8x2pkQsF9t2nTHd_WC2DALec=w1920-h1080" src="" alt="" />
+</div>
+
+</div>
+
+
 <script>
-document.getElementById("myDIV").style.display = "block"; 
+document.getElementById("STL").style.display = "none"; 
+document.getElementById("Path").style.display = "none"; 
 function myFunction() {
   var x = document.getElementById("myDIV");
   if (x.style.display === "none") {
