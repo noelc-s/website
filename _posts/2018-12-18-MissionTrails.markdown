@@ -29,18 +29,14 @@ category:   hiking
 
 </div>
 
-  <head> 
-    <script src="jquery.js"></script> 
-    <script> 
+<script src="jquery.js"></script> 
+<script> 
     $(function(){
       $("#includedContent").load("test.html"); 
     });
-    </script> 
-  </head> 
+</script> 
 
-  <body> 
-     <div id="includedContent"></div>
-  </body> 
+<div id="includedContent"></div>
 
 
 <script>
