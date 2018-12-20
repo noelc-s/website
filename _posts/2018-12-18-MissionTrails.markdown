@@ -28,7 +28,6 @@ category:   hiking
 </div>
 
 </div>
-<iframe src="test.html"></iframe>
 
 
 <script>
@@ -50,5 +49,16 @@ function STL() {
     x.style.display = "none";
   }
 }
+</script>
+
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script> 
+<script type="text/javascript">window.PLOTLYENV=window.PLOTLYENV || {};window.PLOTLYENV.BASE_URL="https://plot.ly";Plotly.LINKTEXT="Export to plot.ly";</script>
+<div class="b9c89827-bfab-4da9-8179-2186bcb5108f loading" style=color: rgb(50,50,50);">Drawing...</div>
+<div id="b9c89827-bfab-4da9-8179-2186bcb5108f" style="height: 630px;width: 840px;" class="plotly-graph-div"></div> 
+<script type="text/javascript">
+ Plotly.plot("b9c89827-bfab-4da9-8179-2186bcb5108f", [{"xaxis": "x1", "yaxis": "y1", "type": "scatter", "visible": true, "x": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "y": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], "mode": "lines", "showlegend": true}], {"margin": {"pad": 0, "l": 0, "r": 0, "b": 0, "t": 80}, "showlegend": false, "width": 840, "height": 630, "xaxis1": {"domain": [0.13, 0.905], "side": "bottom", "type": "linear", "anchor": "y1"}, "yaxis1": {"domain": [0.11, 0.925], "side": "left", "type": "linear", "anchor": "x1"}, "annotations": [], "title": "<b><b><\/b><\/b>"}).then(function(){
+    $(".b9c89827-bfab-4da9-8179-2186bcb5108f.loading").remove();
+    $(".link--embedview").text("Export to plot.ly");
+    }); 
 </script>
 
