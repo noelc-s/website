@@ -29,6 +29,19 @@ category:   hiking
 
 </div>
 
+  <head> 
+    <script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("test.html"); 
+    });
+    </script> 
+  </head> 
+
+  <body> 
+     <div id="includedContent"></div>
+  </body> 
+
 
 <script>
 document.getElementById("STL").style.display = "none"; 
