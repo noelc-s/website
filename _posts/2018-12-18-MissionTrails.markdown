@@ -28,15 +28,7 @@ category:   hiking
 </div>
 
 </div>
-
-<script src="jquery.js"></script> 
-<script> 
-    $(function(){
-      $("#includedContent").load("test.html"); 
-    });
-</script> 
-
-<div id="includedContent"></div>
+<iframe src="test.html"></iframe>
 
 
 <script>
