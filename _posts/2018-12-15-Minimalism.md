@@ -23,7 +23,10 @@ To make changes, update the MATLAB code and republish this document.
 
 clc;clear;close all
 image = 'climb.jpg';
-% There is a bit of hyperparameter tuning with this script. the% smoot_factor represents how much to smooth the intensity histogram, and% the peak_prom is the prominence of valleys in the intensity histogram to% treat as a separate bin.
+% There is a bit of hyperparameter tuning with this script. the
+% smooth_factor represents how much to smooth the intensity histogram, and
+% the peak_prom is the prominence of valleys in the intensity histogram to
+% treat as a separate bin.
 smooth_factor = 20;
 peak_prom = 10000;
 {% endhighlight %}
