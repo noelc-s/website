@@ -3,7 +3,7 @@ layout:     post
 title:      Minimalism
 date:       2018-12-15 
 author:     Noel Csomay-Shanklin
-tags: 		presonal matlab
+tags: 		personal matlab
 category:   personal
 subtitle:   A script to turn images minimalistic
 visualworkflow: false
