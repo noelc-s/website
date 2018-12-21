@@ -19,8 +19,8 @@ category:   cinelimb
 </div>
 
 <script>
-document.getElementById("CV").style.display = "block"; 
-document.getElementById("ROBO").style.display = "block"; 
+document.getElementById("CV").style.display = "none"; 
+document.getElementById("ROBO").style.display = "none"; 
 function CV() {
   var x = document.getElementById("CV");
   if (x.style.display === "none") {
@@ -41,13 +41,13 @@ function ROBO() {
 </script>
 
 
-##Computer Vision Final Video  
+## Computer Vision Final Video  
 <iframe width="100%" height="400%" src="https://www.youtube.com/embed/x6rHYJMCR9k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-##Robotics Final Cinematic Video
+## Robotics Final Cinematic Video
 <iframe width="100%" height="400%" src="https://www.youtube.com/embed/uvgOcPDV9eQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-##Object Avoidance
+## Object Avoidance
 <iframe src="https://drive.google.com/file/d/1OyUX6ZNpQaGmGVYz-PDUUZRysdQ64er4/preview" width="400%" height="100%"></iframe>
 
 <iframe src="https://drive.google.com/file/d/1UBenhGRpwJLISVhrdl3U0jHusKzUljrK/preview" width="400%" height="100%"></iframe>
