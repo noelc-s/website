@@ -2,7 +2,7 @@
 layout:     post
 title:      Final Report
 author:     Noel Csomay-Shanklin
-tags: 		  School CV
+tags: 		  School CV Robotics
 subtitle:  	Final Deliverable for our CS 4476 Computer Vision Class
 category:   cinelimb
 ---
@@ -19,8 +19,8 @@ category:   cinelimb
 </div>
 
 <script>
-document.getElementById("STL").style.display = "block"; 
-document.getElementById("Path").style.display = "block"; 
+document.getElementById("CV").style.display = "block"; 
+document.getElementById("ROBO").style.display = "block"; 
 function CV() {
   var x = document.getElementById("CV");
   if (x.style.display === "none") {
@@ -42,12 +42,12 @@ function ROBO() {
 
 
 ##Computer Vision Final Video  
-<iframe width="100%" height="100%" src="https://www.youtube.com/embed/x6rHYJMCR9k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="400%" src="https://www.youtube.com/embed/x6rHYJMCR9k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ##Robotics Final Cinematic Video
-<iframe width="100%" height="100%" src="https://www.youtube.com/embed/uvgOcPDV9eQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="100%" height="400%" src="https://www.youtube.com/embed/uvgOcPDV9eQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ##Object Avoidance
-<iframe src="https://drive.google.com/file/d/1OyUX6ZNpQaGmGVYz-PDUUZRysdQ64er4/preview" width="100%" height="100%"></iframe>
+<iframe src="https://drive.google.com/file/d/1OyUX6ZNpQaGmGVYz-PDUUZRysdQ64er4/preview" width="400%" height="100%"></iframe>
 
-<iframe src="https://drive.google.com/file/d/1UBenhGRpwJLISVhrdl3U0jHusKzUljrK/preview" width="100%" height="100%"></iframe>
+<iframe src="https://drive.google.com/file/d/1UBenhGRpwJLISVhrdl3U0jHusKzUljrK/preview" width="400%" height="100%"></iframe>
