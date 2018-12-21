@@ -1,0 +1,10 @@
+---
+layout:     post
+title:      Pogacsa
+subtitle:   A Hungarian Biscuit 
+author:     Noel Csomay-Shanklin
+tags: 		  Hobbies Baking
+category:   baking
+---
+A hungarian buttery cheese biscuit, good for dinner parties.
+[Recipe](http://theeccentriccook.yummly.com/2011/12/sajtos-pogacsa-hungarian-cheese-puffs.html)
