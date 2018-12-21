@@ -19,8 +19,8 @@ category:   cinelimb
 </div>
 
 <script>
-document.getElementById("STL").style.display = "none"; 
-document.getElementById("Path").style.display = "none"; 
+document.getElementById("STL").style.display = "block"; 
+document.getElementById("Path").style.display = "block"; 
 function CV() {
   var x = document.getElementById("CV");
   if (x.style.display === "none") {
@@ -41,8 +41,13 @@ function ROBO() {
 </script>
 
 
-[Computer Vision Final Video](https://tinyurl.com/y8y73lf4)  
-[Robotics Final Cinematic Video](https://tinyurl.com/y8b8xj67)
+##Computer Vision Final Video  
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/x6rHYJMCR9k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe src="https://drive.google.com/file/d/1OyUX6ZNpQaGmGVYz-PDUUZRysdQ64er4/preview" width="640" height="480"></iframe>
-<iframe src="https://drive.google.com/file/d/1UBenhGRpwJLISVhrdl3U0jHusKzUljrK/preview" width="640" height="480"></iframe>
+##Robotics Final Cinematic Video
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/uvgOcPDV9eQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+##Object Avoidance
+<iframe src="https://drive.google.com/file/d/1OyUX6ZNpQaGmGVYz-PDUUZRysdQ64er4/preview" width="100%" height="100%"></iframe>
+
+<iframe src="https://drive.google.com/file/d/1UBenhGRpwJLISVhrdl3U0jHusKzUljrK/preview" width="100%" height="100%"></iframe>
