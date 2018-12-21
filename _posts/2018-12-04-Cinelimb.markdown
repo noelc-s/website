@@ -7,7 +7,37 @@ subtitle:  	Final Deliverable for our CS 4476 Computer Vision Class
 category:   cinelimb
 ---
 <!-- Start Writing Below in Markdown -->
+<button onclick="CV()">Show Computer Vision Final Report</button>
 
-See the final report [here](https://cinelimb.gitlab.io/)
-
+<div id="CV" align="center">
 <iframe width="1170" height="1000" src="https://cinelimb.gitlab.io" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<button onclick="ROBO()">Show Robotics Final Report</button>
+<iframe width="1170" height="1000" src="https://docs.google.com/document/d/e/2PACX-1vTq2_OzPyvj8q9MnastI3Oc4StvfWQ-MmXeogmgs6FM3G_fn8wZPfp9ti4vp2DkFbOqUZ0zA-8sXySy/pub" frameborder="0" allowfullscreen></iframe>
+
+<script>
+document.getElementById("STL").style.display = "none"; 
+document.getElementById("Path").style.display = "none"; 
+function CV() {
+  var x = document.getElementById("CV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function ROBO() {
+  var x = document.getElementById("ROBO");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+
+[Computer Vision Final Video](https://tinyurl.com/y8y73lf4)  
+[Robotics Final Cinematic Video](https://tinyurl.com/y8b8xj67)
