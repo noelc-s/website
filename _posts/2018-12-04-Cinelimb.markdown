@@ -1,10 +1,10 @@
 ---
 layout:     post
-title:      Final Report
+title:      CV 4476
 author:     Noel Csomay-Shanklin
 tags: 		  School CV Robotics
 subtitle:  	Final Deliverable for our CS 4476 Computer Vision Class
-category:   cinelimb
+category:   school
 ---
 <!-- Start Writing Below in Markdown -->
 <button onclick="CV()">Show Computer Vision Final Report</button>

@@ -1,8 +1,7 @@
 ---
 layout: project
-title: "School Work"
-subtitle: ["Cinelimb"]
-disp: "True"
+title: "Classes"
+disp: "False"
 description: "Work Done for School"
 header-img: "img/home-bg.jpg"
 category: school

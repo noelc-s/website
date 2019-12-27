@@ -1,8 +1,8 @@
 ---
 layout: project
-title: "Personal Projects"
-disp: "True"
-description: "Personal Projects Outside of Research"
+title: "Projects"
+disp: "False"
+description: "Personal Projects"
 header-img: "img/home-bg.jpg"
 category: personal
 ---

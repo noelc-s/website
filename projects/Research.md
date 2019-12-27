@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Research"
-disp: "True"
+disp: "False"
 description: "Research"
 header-img: "img/home-bg.jpg"
 category: research
