@@ -1,5 +1,5 @@
 # Site settings
-# title: Noel Csomay-Shanklin
+title: ""
 description: ""
 url: "https://noelc-s.github.io"
 
@@ -7,7 +7,7 @@ url: "https://noelc-s.github.io"
 baseurl: "/website"
 header-img: img/home-bg.jpg
 headercolor: "#FFFFFF"
-logo: /website/img/headshot.png
+logo: /website/img/sierras_1.png
 
 # Tertiary Parameters
 github_username:  noelc-s
