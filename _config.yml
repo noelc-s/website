@@ -8,7 +8,7 @@ url: "https://noelc-s.github.io"
 baseurl: "/website"
 header-img: img/home-bg.jpg
 headercolor: "#FFFFFF"
-logo: /website/img/headshot_paris.jpg
+logo: /website/img/headshot_paris.png
 
 # Tertiary Parameters
 github_username:  noelc-s
