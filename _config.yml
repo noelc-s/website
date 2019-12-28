@@ -1,14 +1,14 @@
 # Site settings
 title: "Noel Csomay-Shanklin"
-default_header: "Home"
-description: "Feed of Recent Posts"
+default_header: ""
+description: ""
 url: "https://noelc-s.github.io"
 
 # Secondary Parameters
 baseurl: "/website"
 header-img: img/home-bg.jpg
 headercolor: "#FFFFFF"
-#logo: /website/img/sierras_1.jpg
+logo: /website/img/headshot_paris.jpg
 
 # Tertiary Parameters
 github_username:  noelc-s
