@@ -3,7 +3,7 @@ layout:     post
 title:      Climbing
 subtitle:   List of Climbing Spots Visited
 author:     Noel Csomay-Shanklin
-tags: 		  climbing
+tags: 		  Climbing
 category:   climbing
 ---
 # Climbing Spots Visited
@@ -36,8 +36,8 @@ category:   climbing
   * Cathedral Peak
   * Toualumne Boulders
 
-# Sent
-* The Arete (V4)
-* Dragon Lady (V4)
-* Genghis Khan (V5)
+<># Sent
+<>* The Arete (V4)
+<>* Dragon Lady (V4)
+<>* Genghis Khan (V5)
 
