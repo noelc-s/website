@@ -15,7 +15,3 @@ California Institute of Technology</a>
 noelcs [at] caltech [dot] edu
 
 
-<!--
-<a href="{{ "/img/Csomay-Shanklin_Noel_Resume.pdf" | prepend: site.baseurl }}" target="_blank">Resume</a>
-->
-	

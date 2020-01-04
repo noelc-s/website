@@ -36,8 +36,4 @@ category:   climbing
   * Cathedral Peak
   * Toualumne Boulders
 
-<># Sent
-<>* The Arete (V4)
-<>* Dragon Lady (V4)
-<>* Genghis Khan (V5)
 
