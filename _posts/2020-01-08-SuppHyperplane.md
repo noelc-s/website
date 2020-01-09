@@ -98,7 +98,7 @@ Substituting values, we have that
 \\[
 \begin{align}
 -a_i^\top (z-z_i^* )&\le 0\ \forall\ z\in\mathcal{C} \notag \\\
-a_i^\top z_i^* &= a_i^\top (z_i^* -w ) + a_i^\top w_i 
+a_i^\top z_i^* &= a_i^\top (z_i^* -w ) + a_i^\top w_i \notag
 \end{align}
 \\]
 which implies that 
