@@ -1,7 +1,7 @@
 ---
 layout: project
 title: "Non-Academic"
-subtitle: ["Baking", "Fermenting","Biking","Climbing","Hiking","Projects"]
+subtitle: ["Baking", "Fermenting","Biking","Climbing","Hiking","Projects","PersonalRead"]
 disp: "True"
 description: "Work Done for School"
 header-img: "img/home-bg.jpg"

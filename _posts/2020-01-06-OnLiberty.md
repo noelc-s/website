@@ -4,7 +4,7 @@ title:      On Liberty
 subtitle:   John Stuart Mill
 author:     Noel Csomay-Shanklin
 tags: 		  Reading
-category:   reading
+category:   PersonalReading
 ---
 "The danger which threatens human nature is not the excess, but the deficiency, of personal impulses and preferences....
 In other times, from the highest class of society down to the lowest, everyone lives as under the eye of a hostile and dreaded censorship. 

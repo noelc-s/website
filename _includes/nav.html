@@ -26,7 +26,7 @@
 							  <div class="dropdown-menu dropdown-menu-left" aria-labelledby="navbarDropdown" style="min-width:10px;">
 								{% for sub in page.subtitle %}
 								{% for p in site.pages %}{% if p.title contains sub %}
-                <a align="right" style="color:black; padding:5px 0px 5px 20px; " class="dropdown-item" style="min-width:10px; "href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
+                <a align="right" style="color:black; padding:5px 0px 5px 20px; " class="dropdown-item" style="min-width:10px; "href="{{ p.url | prepend: site.baseurl }}">{{ p.displayName }}</a>
 								{% endif %}{% endfor %}
 								{% endfor %}
 								</div>
