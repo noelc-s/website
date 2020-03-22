@@ -2,7 +2,8 @@
 layout: page
 title: "About"
 disp: "True"
-header-img: "img/home-bg.jpg"
+description: ""
+header-img: "img/caltech.jpg"
 ---
 
 <img align="left" src="https://noelc-s.github.io/website/img/sierras_1.jpg" width="200" hspace="20">

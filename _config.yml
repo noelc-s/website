@@ -6,7 +6,7 @@ url: "https://noelc-s.github.io"
 
 # Secondary Parameters
 baseurl: "/website"
-header-img: img/home-bg.jpg
+header-img: img/home-bg-crop.png
 headercolor: "#FFFFFF"
 logo: /website/img/headshot_paris.png
 
@@ -34,7 +34,7 @@ defaults:
       type: "pages"
     values:
       layout: "project"
-      header-img: "img/home-bg.jpg"
+      header-img: "img/home-bg-crop.png"
 
 # Prose Settings
 prose:
