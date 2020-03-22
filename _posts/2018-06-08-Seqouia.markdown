@@ -2,7 +2,7 @@
 layout:     post
 title:      Seqouia National Park
 author:     Noel Csomay-Shanklin
-tags: 		  Hobbies Hiking
+tags: 		  Hiking
 category:   hiking
 ---
 <!-- Start Writing Below in Markdown -->

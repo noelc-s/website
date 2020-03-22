@@ -3,7 +3,7 @@ layout:     post
 title:      Grand Canyon
 subtitle:   Rim - Rim - Rim
 author:     Noel Csomay-Shanklin
-tags: 		  Hobbies Hiking
+tags: 		  Hiking
 category:   hiking
 ---
 <!-- Start Writing Below in Markdown -->

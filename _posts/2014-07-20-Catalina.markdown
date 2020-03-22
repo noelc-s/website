@@ -2,7 +2,7 @@
 layout:     post
 title:      Catalina
 author:     Noel Csomay-Shanklin
-tags: 		  Hobbies Hiking
+tags: 		  Hiking
 category:   hiking
 ---
 <!-- Start Writing Below in Markdown -->

@@ -3,7 +3,7 @@ layout:     post
 title:      Mission Trails Regional Park
 subtitle:   5 Peaks 
 author:     Noel Csomay-Shanklin
-tags: 		  Hobbies Hiking
+tags: 		  Hiking
 category:   hiking
 ---
 <!-- Start Writing Below in Markdown -->

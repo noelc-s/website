@@ -10,6 +10,7 @@ A list of mathematical terms I have come across and needed to look up.
 * TOC
 {:toc}
 ## Spaces
+---
 ### Topological Space
 Informally, a set of points, along with a set of neighbourhoods for each point satisfying a set of axioms relating points and neighbourhoods. Formally, let $X$ be a set, and let $\mathscr{U}$ be a collection of subsets of $X$. $\mathscr{U}$ is called a topology on X if
 1. $X,\emptyset\in\mathscr{U}$;
@@ -29,7 +30,7 @@ The pair $(X,d)$ is called a metric space.
 ### Dual Space
 Any vector space $V$ has a corrseponding dual vector space, $V^\*$, consisting of all linear functionals on V. Formally, given any vector space $V$ over a field $\mathbb{F}$, the (algebraic) dual space $V^*$ is the set of all linear maps $\varphi:V\to\mathbb{F}$.
 ## Topology-esque
-
+---
 ### Morphism
 A morphism is a strucutre-preserving map between mathematical structures of the same type.
 ### Endomorphism
@@ -47,12 +48,14 @@ A differentiable homeomorphism, i.e. a continously differentiable mapping betwee
 ### Examples
 Let $(G, * )$ and $(H,\cdot)$ be two groups. A group homomorphism is a map $\rho:G\to H$ that satisfies $\rho (a*b)=\rho(a)\cdot \rho(b)$. If $\rho$ is bijective, then it is a group isomorphism. In this case, $G$ and $H$ are isomorphic, written as $G\cong H$.
 ## Differential Geometry
+---
 ### [Manifold](https://en.wikipedia.org/wiki/Manifold)
 Informally, a manifold is a "surface", i.e. a space that is locally Euclidean. Formally, a (topological) manifold is a second countable Hausdorff space that is locally homeomorphic to Euclidean space.
 ### [Foliage](https://en.wikipedia.org/wiki/Foliation)
 An equivalence relation on an $n$-manifold, the equivalence classes being connected, injectively immersed submanifolds, all of the same dimension $p$, modeled on the decomposition of the real coordinate space $\mathbb{R}^n$ into the cosets $x+\mathbb{R}^p$ of the standardly embedded subspace $\mathbb{R}^p$.
 
 ## Abstract Algebra
+---
 ### Group
 A group is a set equipped with a binary operation which satisfies the group axioms, given by
 1. Closure

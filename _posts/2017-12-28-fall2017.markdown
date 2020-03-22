@@ -3,7 +3,7 @@ layout:     post
 title:      Fall 2017
 subtitle:   St. George, UT -- Rocky Mountain National Park, CO
 author:     Noel Csomay-Shanklin
-tags: 		  Hobbies Hiking
+tags: 		  Hiking
 category:   hiking
 ---
 <!-- Start Writing Below in Markdown -->

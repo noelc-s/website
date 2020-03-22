@@ -2,7 +2,7 @@
 layout:     post
 title:      Wilson via Echo Mountain
 author:     Noel Csomay-Shanklin
-tags: 		Hobbies Hiking
+tags: 		 Hiking
 category:   hiking
 ---
 <!-- Start Writing Below in Markdown -->
