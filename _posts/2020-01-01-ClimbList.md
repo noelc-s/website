@@ -10,9 +10,11 @@ category:   climbing
 * Boat Rock, GA
 * Buttermilks, CA
 * Fontainbleu, France
-* Horse Flats, CA
 * Joshua Tree, CA
 * Little Rock City (Stone Fort), TN
+* Los Angeles, CA
+  * Horse Flats
+  * Stoney Point
 * Owen's River Gorge, CA
 * Pine Creek, CA
 * Rock Town, GA
