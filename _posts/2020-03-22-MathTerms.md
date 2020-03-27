@@ -72,15 +72,39 @@ The dual bundle of the Tangent Bundle, conistent of all of the cotangent spaces 
 The Lie derivative evaluates the change of a tensor field along the flow defined by another vector field.
 #### Example
 $\dot{V}=\frac{dV}{dx}\dot{x}$ represents the Lie derivative of the scalar field $V$ (Lyapunov function) along the flow defined by the vector field given by the dynamics of a system.
+### Distribution
+A distribution $\mathcal{D}$ is an assignment to each point $x\in M$ a subspace $\mathcal{D}_x$ of $T_xM$.
+
+### Lie Bracket
+The Lie derivative of a vector field with respect to another vector field. The lie bracket assigns any two vector fields $X4 and $Y$ on a smooth manifold $M$ a third vector field, denoted $[X,Y]$.
+
 
 ## Abstract Algebra
 ---
+### Magma/Groupoid
+A set equipped with a binary operation which sends any two elements to another element, and satisfies closure, i.e. for all $x,y\in S$, $x\cdot y\in S$.
+### Semigroup
+A magma with associativity.
+### Quasigroup 
+A magma with divisibility.
+### Monoid
+A semigroup with the identity.
+### Loop 
+A quasigroup with the identity.
+
 ### Group
 A group is a set equipped with a binary operation which satisfies the group axioms, given by
 1. Closure
 2. Associativity
 3. Identity Element
 4. Inverse Element
+
+In the above terms, it is a magma which satisfies the group axioms.
+
+### Lie Groupoid 
+Informally, a Lie groupois is a "many-object generalization" of a Lie group. A Lie groupoid is a groupoid where the set of objects $Ob$ and the set of morphisms $Mor$ are both manifolds, the source and target operations $s,t:Mor\to Ob$ are submersions, and the category operations are smooth.
+### Lie Group
+A group whose elements are organized continuously and smoothly. A real Lie group is a group that is a finite-dimensional real smooth manifold, in which the group operations of multiplication and inversion are smooth maps. 
 
 ### Ring
 A ring is a set equipped with two binary operations that generalize the arithmetic operations of addition and multiplication. More rigorously, a ring is a set $\mathbf{R}$ equipped with two binary operations $+$ and $\cdot$ satisfying the ring axioms, given by
@@ -93,6 +117,18 @@ A module over a ring is a generalization of the notion of a vector space over a 
 
 ### [Algebra over a Field (Algebra)](https://en.wikipedia.org/wiki/Algebra_over_a_field)
 A vector space equipped with a bilinear product. Thus, an algebra is an algebraic structure, which consists of a set, together with operations of multiplication, addition, and scalar multiplication by elements of the underlying field, and satisfies the axioms implied by "vector space" and "bilinear".
+
+### Lie Algebra
+A Lie Algebra is a vector space $\mathfrak{g}$ with a Lie bracket. Any Lie group gives ruse to a Lie algebra, which is its tangent space at the identity.
+
+### Lie Algebroid
+Lie algebroids serce the same role for Lie groupoids that Lie algebras serve for Lie groups.
+
+
+## Control Theory
+---
+### Zero Dynamics
+Informally, zero dynamics are the residual dynamics after the outputs of a system have been zeroed.
 
 ## Still Fuzzy On
 ---
