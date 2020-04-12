@@ -2,7 +2,7 @@
 layout:     post
 title:      Split Mountain
 author:     Noel Csomay-Shanklin
-tags: 		  1.5-day 2-day FutureTrips
+tags: 		  2-day FutureTrips
 category:   FutureTrips
 ---
 ## Logistics
