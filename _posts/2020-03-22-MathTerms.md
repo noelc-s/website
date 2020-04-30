@@ -78,9 +78,8 @@ A distribution $\mathcal{D}$ is an assignment to each point $x\in M$ a subspace 
 ### Lie Bracket
 The Lie derivative of a vector field with respect to another vector field. The lie bracket assigns any two vector fields $X4 and $Y$ on a smooth manifold $M$ a third vector field, denoted $[X,Y]$.
 
+## Group Theory
 
-## Abstract Algebra
----
 ### Magma/Groupoid
 A set equipped with a binary operation which sends any two elements to another element, and satisfies closure, i.e. for all $x,y\in S$, $x\cdot y\in S$.
 ### Semigroup
@@ -101,10 +100,25 @@ A group is a set equipped with a binary operation which satisfies the group axio
 
 In the above terms, it is a magma which satisfies the group axioms.
 
-### Lie Groupoid 
-Informally, a Lie groupois is a "many-object generalization" of a Lie group. A Lie groupoid is a groupoid where the set of objects $Ob$ and the set of morphisms $Mor$ are both manifolds, the source and target operations $s,t:Mor\to Ob$ are submersions, and the category operations are smooth.
+### Group Action
+If $G$ is a group and $X$ is a set, then a (left) group action $\phi$ of G on X is a function 
+\\[
+\phi:G\times X\to X, (g,x)\to\phi(g,x)
+\\]
+that satisfies identity and compatability.
+
 ### Lie Group
 A group whose elements are organized continuously and smoothly. A real Lie group is a group that is a finite-dimensional real smooth manifold, in which the group operations of multiplication and inversion are smooth maps. 
+
+#### Example
+Consider the group $S$ of continuous rotations about the origin, and the group $D_4$ of 90 degree rotations (i.e. the respective sets of rotations with the binary operation of composition). Now consider two objects, the square and the circle. $D_4$ constitutes a group action on the square, and $S$ constitutes a group action on the circle, because they preserve the symmetry of the underlying sets. Because the elements of $S$ are continuous, it is a Lie Group.
+
+
+### Lie Groupoid 
+Informally, a Lie groupois is a "many-object generalization" of a Lie group. A Lie groupoid is a groupoid where the set of objects $Ob$ and the set of morphisms $Mor$ are both manifolds, the source and target operations $s,t:Mor\to Ob$ are submersions, and the category operations are smooth.
+
+## Abstract Algebra
+---
 
 ### Ring
 A ring is a set equipped with two binary operations that generalize the arithmetic operations of addition and multiplication. More rigorously, a ring is a set $\mathbf{R}$ equipped with two binary operations $+$ and $\cdot$ satisfying the ring axioms, given by
