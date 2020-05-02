@@ -79,7 +79,6 @@ A distribution $\mathcal{D}$ is an assignment to each point $x\in M$ a subspace 
 The Lie derivative of a vector field with respect to another vector field. The lie bracket assigns any two vector fields $X4 and $Y$ on a smooth manifold $M$ a third vector field, denoted $[X,Y]$.
 
 ## Group Theory
-
 ### Magma/Groupoid
 A set equipped with a binary operation which sends any two elements to another element, and satisfies closure, i.e. for all $x,y\in S$, $x\cdot y\in S$.
 ### Semigroup
@@ -92,13 +91,16 @@ A semigroup with the identity.
 A quasigroup with the identity.
 
 ### Group
-A group is a set equipped with a binary operation which satisfies the group axioms, given by
-1. Closure
-2. Associativity
-3. Identity Element
-4. Inverse Element
+A group is a set, $G$ equipped with a binary operation $\cdot$ which satisfies the group axioms, given by
+1. Closure: $\forall\ a,b\in G,\ a\cdot b\in G$
+2. Associativity: $\forall\ a,b,c\in G, (a\cdot b)\cdot c = a\cdot (b\cdot c)$
+3. Identity Element: $\exists\ e\in G\ s.t.\ \forall\ a\in G, e\cdot a=a\cdot e = a$
+4. Inverse Element: $\forall\ a\in G,\ \exists\ b\in G s.t. a\cdot b = b\cdot a = e$
 
 In the above terms, it is a magma which satisfies the group axioms.
+
+### Abelian ($\equiv$ Commutative) Group
+A group for which the group operation is commutative.
 
 ### Group Action
 If $G$ is a group and $X$ is a set, then a (left) group action $\phi$ of G on X is a function 
