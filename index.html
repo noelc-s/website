@@ -4,21 +4,23 @@ layout: page
 				<table>
 {% for post in paginator.posts %}
 <div class="post-preview">
-				<tr style="border-bottom:1px solid gray">
-								<td style="vertical-align:top">
+				<tr style="border-bottom:1px solid #ccc">
+								<td style="vertical-align:middle">
     <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h4 class="post-subtitle">
-            {{ post.subtitle }}
+        <h4 class="post-title">            {{ post.title }}
         </h4>
+        {% if post.subtitle %}
+        <h5 class="post-subtitle">
+								<i> {{ post.subtitle }}</i>
+        </h5>
         {% endif %}
     </a>
 								</td>
+								<td style="vertical-align:middle">
+    <h5 class="post-meta" style="margin:0px 0;margin-bottom:0px">{{ post.date | date: "%B %-d, %Y" }}</h5>
+								</td>
 								<td>
-    <p class="post-meta" style="margin:15px 0;margin-bottom:0px">Posted on {{ post.date | date: "%B %-d, %Y" }}</p>
-	<div style="margin-bottom:10px"class="notepad-index-post-tags" style="">
+	<div style="vertical-align:middle"class="notepad-index-post-tags" style="">
 		{% for tag in post.tags %}<a href="{{ site.baseurl }}/search/index.html#{{ tag | cgi_encode }}" title="Other posts from the {{ tag | capitalize }} tag">{{ tag | capitalize }}</a>{% unless forloop.last %}&nbsp;{% endunless %}{% endfor %}
 	</div>
 								</td>

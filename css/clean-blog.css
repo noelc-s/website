@@ -416,7 +416,8 @@ body {
 }
 
 div.notepad-index-post-tags {
-    font-size: 16px;
+    font-family: Open Sans;
+    font-size: 13px;
     float: none;
     color: black;
     padding-top: 1.25rem;
@@ -430,8 +431,8 @@ div.notepad-index-post-tags {
 	border-radius: 0.125rem;
 	margin-bottom: 0.3125rem; }
 .notepad-index-post-tags a:hover {
-	color: #e51843;
-	border: 0.0625rem solid #e51843; }
+	color: #2761cc;
+	border: 0.0625rem solid #2761cc; }
 
 table {
 	width:100%;
