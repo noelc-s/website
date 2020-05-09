@@ -3,7 +3,7 @@ layout:     post
 title:      Rim-Rim-Rim
 subtitle:   In a day
 author:     Noel Csomay-Shanklin
-tags: 		  3-day FutureTrips
+tags: 		  FutureTrips 3-day
 category:   FutureTrips
 ---
 ## Logistics
