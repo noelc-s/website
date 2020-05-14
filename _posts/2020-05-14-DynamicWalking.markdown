@@ -7,4 +7,4 @@ tags: 		  Research
 category:   research
 ---
 <!-- Start Writing Below in Markdown -->
-<img style="margin:20px 20px" src="https://noelc-s.github.io/website/img/DynamicWalking2020Final.pdf">
+<iframe width="100%" height="1170" src="https://noelc-s.github.io/website/img/DynamicWalking2020Final.pdf">
