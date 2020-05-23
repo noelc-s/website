@@ -54,7 +54,7 @@ Time             | Step | Notes |
 ### Notes
 ---
 
-Room temp was not consistent but was warm (~75) during the day and temperate (~70) at night. Reduced overall dough hydration from 78% to 74% (-20g water to halved recipe). Replaced rye with whole wheat (which has similar absorbtivity). Dough consistency was favorable to batch 1. Loaf was still "flatter" when compared to active yeasted doughes, but I'm starting to think this is a trait of sourdough loaves.
+Room temp was not consistent but was warm (~75) during the day and temperate (~70) at night. Reduced overall dough hydration from 78% to 74% (-20g water to halved recipe). Replaced rye with whole wheat (which has similar absorbtivity). Dough consistency was favorable to batch 1. Loaf was still "flatter" when compared to active yeasted doughs, but I'm starting to think this is a trait of sourdough loaves.
 
 
 ### Photos

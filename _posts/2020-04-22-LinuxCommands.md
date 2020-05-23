@@ -36,3 +36,10 @@ set(gca,'TickLabelInterpreter', 'latex');
 set(gca,'FontSize',17)
 set(gca,'linewidth',2)
 {% endhighlight %}
+
+## IguanaTex
+### Change width of rendered TeX
+{% highlight matlab %}
+\documentclass[10pt,a4paper,twocolumn]{article}
+\usepackage[top=30pt,bottom=30pt,left=0pt,right=100pt]{geometry}
+{% endhighlight %}
