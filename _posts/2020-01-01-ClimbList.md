@@ -9,6 +9,7 @@ category:   climbing
 # Climbing Spots Visited
 * Boat Rock, GA
 * Buttermilks, CA
+* Echo Cliffs, CA
 * Fontainbleu, France
 * Joshua Tree, CA
 * Little Rock City (Stone Fort), TN

@@ -41,7 +41,7 @@ Good.
 ## 2
 ### Notes
 ---
-Still good. Not as complex a flavor as some of the other loaves.
+Still good. Not as complex a flavor as some of the other loaves. Realized I accidentally halved the instant yeast in this loaf.
 
 ### Photos
 ---
