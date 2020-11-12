@@ -33,7 +33,7 @@ category:   climbing
   * Snow Canyon
   * The Gap
   * The Helix
-	* Turtle Wall
+  * Turtle Wall
 * Table Rock, NC
 * Yosemite, CA
   * Cathedral Peak
