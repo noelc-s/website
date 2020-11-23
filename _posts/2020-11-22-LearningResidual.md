@@ -43,7 +43,7 @@ Based on data collected from the evolution of the system, we can try to learn $\
 \\end{align}
 In practice, we likely will not be able to learn $\hat{\delta}(x)$ perfectly, but this methodology can be shown to have improved performance when compared to just utilizing the original model.
 # Example
-This discussion uses the [pendulum]({{ site.baseurl }}{% post_url 2020-03-08-Pendulum%}) as the motivating example, whose dynamics are given by
+This discussion uses the [pendulum]({{ site.baseurl }}{% post_url 2020-07-08-Pendulum%}) as the motivating example, whose dynamics are given by
 \\[
 \dot{x} = \underbrace{\begin{bmatrix}\dot{\theta}\\\\ -\frac{mgl}{J}\sin\theta-b\dot{\theta}\end{bmatrix}}_{f(x)} +  \underbrace{\begin{bmatrix}0\\\\ 1\end{bmatrix}}\_{g(x)}u
 \\]
