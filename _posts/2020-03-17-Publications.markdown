@@ -7,7 +7,9 @@ category:   research
 ---
 # Papers 
 ## Submitted 
-*Preference-Based Learning for User-Guided HZD Gait Generation on Bipedal Walking Robots*, Maegan Tucker and Noel Csomay-Shanklin and Wen-Loong Ma and Aaron D. Ames, submitted to 2020 IEEE International Conference on Robotics and Automation (ICRA).
+*Episodic Learning for Safe Bipedal Locomotion with Control Barrier Functions and Projection-to-State Safety*, Noel Csomay-Shanklin, Ryan Cosner, Min Dai, Andrew Taylor, Aaron D. Ames, submitted to 2021 Learning For Dynamics and Controls (L4DC) conference.
+
+*Preference-Based Learning for User-Guided HZD Gait Generation on Bipedal Walking Robots*, Maegan Tucker and Noel Csomay-Shanklin and Wen-Loong Ma and Aaron D. Ames, submitted to 2021 IEEE International Conference on Robotics and Automation (ICRA).
 
 *Coupled Control Lyapunov Functions for Interconnected Systems, with Application to Quadrupedal Locomotion*, Wen-Loong Ma, Noel Csomay-Shanklin, Shishir Kolathaya, Kaveh Akbari Hamed and Aaron D. Ames, Submitted to IEEE Robotics and Automation Letters (RA-L) with ICRA 2021 option. 
 
