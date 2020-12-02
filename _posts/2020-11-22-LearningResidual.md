@@ -15,10 +15,10 @@ category:   reading
 # Introduction
 In this setting, we are considering systems subject to Control Barrier Functions to ensure safety. To begin, consider a set $\mathcal{C}$ as the superlevel set of a continuously differentiable function $h:\mathbb{R}^n\to \mathbb{R}$. For the pendulum, the equations of motion can we written as 
 \\[
-\dot{x} = f(x) + g(x)u
+\dot{x} = f(x) + g(x)u.
 \\]
 Because this is simply a mathematical model of a physical system, there is guaranteed to be some level of uncertainty in the model, i.e. the model does not perfectly capture the evolution of the system. 
-In the current setting we will assume that we have perfect knowledge of the state of the system, but uncertainty arises in our knowledge of its time evolution. Treating the above equation as the true equations, as in the unknown equations that govern the motion of the system, we car represent the equations that come from our model as 
+In the current setting we will assume that we have perfect knowledge of the state of the system, but uncertainty arises in our knowledge of its time evolution. Treating the above equation as the true equations, as in the unknown equations that govern the motion of the system, we can represent the equations that come from our model as 
 \\[
 \hat{x} = \hat{f}(x)+\hat{g}(x)\hat{u}(x)
 \\]
@@ -27,7 +27,7 @@ where $\hat{u}$ is the controller which depends on the model. We can then write 
  \dot{x} &= f(x) + g(x)u\notag \\\\ \notag
  &= \hat{f}(x) + \hat{g}(x)u + \overbrace{\underbrace{(f(x)-\hat{f}(x))}\_{b(x)}+\underbrace{(g(x)-\hat{g}(x))}\_{A(x)}u}^{d(x,u)}.
 \\end{align}
-Given the CBF $h$, we can define a projected disturbance as 
+Given the Control Barrier Function $h:\mathcal{X}\to \mathbb{R}$, we can define a projected disturbance as 
 \\[
 \delta \triangleq \dot{h}(x,k(x)) - \hat{\dot{h}}(x,k(x)) = b(x) + a(x)^\top k(x).
 \\]
@@ -51,6 +51,7 @@ This discussion uses the [pendulum]({{ site.baseurl }}{% post_url 2020-07-08-Pen
 Consider a true model with $g=9.81\ m/s^2$, $l=1\ m$, $m=1\ kg$, and $b=0\ Nms^{-1}$, and a perturbed model where the damping term was incorrectly determined to be $b=10\ Nms^{-1}$. Additionally, we use the barrier function 
 \\[ h(x) = \dot{\theta}_\max - \dot{\theta}\\]
 The basic CBF-QP would result in the following behavior
-
+<img class="center"  style="margin-top:20px;margin-bottom:20px" src="https://noelc-s.github.io/website/img/ResidualFit.svg?sanitize=true">
+<img class="center"  style="margin-top:20px;margin-bottom:20px" src="https://noelc-s.github.io/website/img/ResidualFit2.svg?sanitize=true">
 # Conclusion
 The above discussion has been a simpler example of the methodology employed in the paper
