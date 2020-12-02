@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      CDS 233
+title:      CDS 232
 author:     Noel Csomay-Shanklin
 tags: 		School 
 subtitle:  	Nonlinear Dynamics Final Project
