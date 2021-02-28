@@ -5,6 +5,7 @@ author:     Noel Csomay-Shanklin
 tags: 		  Reading 
 category:   reading
 ---
+$\require{cancel}$
 A list of mathematical terms I have come across and needed to look up.
 ## Table of Contents
 * TOC
@@ -29,12 +30,12 @@ Informally, a metric space is a space imbued with a "sense of distance". Formall
 The pair $(X,d)$ is called a metric space.
 
 ### Dual Space
-Any vector space $V$ has a corrseponding dual vector space, $V^\*$, consisting of all linear functionals on V. Formally, given any vector space $V$ over a field $\mathbb{F}$, the (algebraic) dual space $V^*$ is the set of all linear maps $\varphi:V\to\mathbb{F}$.
+Any vector space $V$ has a corresponding dual vector space, $V^\*$, consisting of all linear functionals on V. Formally, given any vector space $V$ over a field $\mathbb{F}$, the (algebraic) dual space $V^*$ is the set of all linear maps $\varphi:V\to\mathbb{F}$.
 
 ## Topology-esque
 ---
 ### Morphism
-A morphism is a strucutre-preserving map between mathematical structures of the same type.
+A morphism is a structure-preserving map between mathematical structures of the same type.
 ### Endomorphism
 A morphism from an object to itself. An endomorphism that is also an isomorphism is an automorphism.
 #### Example
@@ -46,7 +47,7 @@ A mapping between two algebraic objects, which preserves operation in those obje
 ### Homeomorphism
 A continuous topological isomorphism. In other words, it is a continuous function between topological spaces with continuous inverse.
 ### Diffeomorphism
-A differentiable homeomorphism, i.e. a continously differentiable mapping between topological spaces with continuously differentiable inverse.
+A differentiable homeomorphism, i.e. a continuously differentiable mapping between topological spaces with continuously differentiable inverse.
 ### Examples
 Let $(G, * )$ and $(H,\cdot)$ be two groups. A group homomorphism is a map $\rho:G\to H$ that satisfies $\rho (a*b)=\rho(a)\cdot \rho(b)$. If $\rho$ is bijective, then it is a group isomorphism. In this case, $G$ and $H$ are isomorphic, written as $G\cong H$.
 
@@ -72,9 +73,26 @@ The dual bundle of the Tangent Bundle, conistent of all of the cotangent spaces 
 The Lie derivative evaluates the change of a tensor field along the flow defined by another vector field.
 #### Example
 $\dot{V}=\frac{dV}{dx}\dot{x}$ represents the Lie derivative of the scalar field $V$ (Lyapunov function) along the flow defined by the vector field given by the dynamics of a system.
-### Distribution
-A distribution $\mathcal{D}$ is an assignment to each point $x\in M$ a subspace $\mathcal{D}_x$ of $T_xM$.
-
+### [Distributions](https://en.wikipedia.org/wiki/Distribution_(differential_geometry))
+A distribution is a collection of subspaces of the tangent bundle assigned to every point on a manifold. That is, for every point $x\in M$, we assign an $n$-dimensional subspace $\Delta_x\subset T_xM$, which depends smoothly on $x$ and have constant dimension for all $x$.
+#### [Involutivity](https://encyclopediaofmath.org/wiki/Involutive_distribution)
+A distribution $\Delta$ is involutive if for any two vector fields $X,Y\in \Delta$, $[X,Y]\in \Delta$
+Examples:
+Take $M=\mathbb{R}^3$ and coordinates $(x,y,z)$. Consider the distribution $\Delta=\left\\{\frac{\partial}{\partial x}, \frac{\partial}{\partial y}\right\\}$. Because $[X,X]=0$ for any vector field $X$, we simply need to notice that $\left[\frac{\partial}{\partial x}, \frac{\partial}{\partial y}\right]=0\in\Delta$ to conclude that $\Delta$ is involutive. Instead, consider $\Delta=\left\\{\frac{\partial}{\partial x}, x\frac{\partial}{\partial y}+\frac{\partial}{\partial z}\right\\}$. Now,
+\\[
+\begin{align}
+\left[\frac{\partial}{\partial x}, x\frac{\partial}{\partial y}+\frac{\partial}{\partial z}\right] &= \left[\frac{\partial}{\partial x}, x\frac{\partial}{\partial y}\right]+\cancelto{0}{\left[\frac{\partial}{\partial x}, \frac{\partial}{\partial z}\right]}\\\
+&=\frac{\partial}{\partial x}\left(x\frac{\partial}{\partial y}\right) - \cancelto{0}{x\frac{\partial}{\partial y}\left(\frac{\partial}{\partial x}\right)} \\\
+&= \frac{\partial}{\partial y}
+\end{align}
+\\]
+We require this to be a linear combination of the elements of $\Delta$; however, note that
+\\[
+\frac{\partial}{\partial y} = a\frac{\partial}{\partial x}+b\left(x\frac{\partial}{\partial y}+\frac{\partial}{\partial z}\right)
+\\]
+does not hold for any functions $a,b$ and therefore $\Delta$ is not involutive.
+#### Integrability 
+A submanifold $N$ of $M$ is said to be an integrable manifold of $\Delta$ if $T_xN=\Delta$ for any $x\in N$. $\Delta$ is said to be completely integrable if there exists an integral manifold of $\Delta$ through every point $x\in M$.
 ### Lie Bracket
 The Lie derivative of a vector field with respect to another vector field. The lie bracket assigns any two vector fields $X4 and $Y$ on a smooth manifold $M$ a third vector field, denoted $[X,Y]$.
 
@@ -153,6 +171,7 @@ Informally, zero dynamics are the residual dynamics after the outputs of a syste
 ### Germs, sheafs
 ### Jets, Jet bundles
 ### One form, n-forms
+### Cosets
 
 
 

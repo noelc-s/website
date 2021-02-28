@@ -2,10 +2,9 @@
 layout:     post
 title:      Model Uncertainty and Machine Learning
 author:     Noel Csomay-Shanklin
-tags: 		  Reading 
+tags: 		  Research
 subtitle:  	With Control Barrier Functions
-show: false
-category:   reading
+category:   research
 ---
 
 ### Table of Contents
