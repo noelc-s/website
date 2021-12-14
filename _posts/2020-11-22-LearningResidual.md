@@ -55,4 +55,5 @@ Now using this estimate of the model uncertainty as it shows up in the barrier f
 <img class="center"  style="margin-top:20px;margin-bottom:20px" src="https://noelc-s.github.io/website/img/ResidualFit2.svg?sanitize=true">
 Because uncertainty was injected in a very structured and known way, it was able to be perfectly captured by our chosen model. In a more general setting, and especially on hardware systems, the uncertainty can arise from a number of unknown sources, creating a need for more complicated models, like neural networks.
 # Conclusion
-The above discussion has been a simpler example of the methodology employed in the paper
+The above discussion has been a simpler example of the methodology employed in the paper: [Episodic Learning for Safe Bipedal Locomotion with
+Control Barrier Functions and Projection-to-State Safety](https://arxiv.org/pdf/2105.01697.pdf)

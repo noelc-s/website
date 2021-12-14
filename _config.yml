@@ -8,7 +8,7 @@ url: "https://noelc-s.github.io"
 baseurl: "/website"
 header-img: img/home-bg-crop.png
 headercolor: "#FFFFFF"
-logo: /website/img/headshot_utah_smaller.png
+logo: /website/img/Noel_headshot.png
 
 # Tertiary Parameters
 github_username:  noelc-s
@@ -23,7 +23,14 @@ markdown: kramdown
 highlighter: rouge
 permalink: pretty
 paginate: 20
-exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 
 # Jekyll Settings
 
@@ -155,4 +162,11 @@ prose:
           label: "Visual Workflow Chart (Some Layouts)"
           value: "true"
 
-theme: jekyll-theme-cayman
+          # theme: jekyll-theme-cayman
+# theme: minimal-mistakes-jekyll
+# minimal_mistakes_skin: "dark" 
+
+remote-theme: "mmistakes/minimal-mistakes@4.24.0"
+
+plugins: 
+  - jekyll-include-cache

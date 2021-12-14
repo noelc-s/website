@@ -81,9 +81,9 @@ Examples:
 Take $M=\mathbb{R}^3$ and coordinates $(x,y,z)$. Consider the distribution $\Delta=\left\\{\frac{\partial}{\partial x}, \frac{\partial}{\partial y}\right\\}$. Because $[X,X]=0$ for any vector field $X$, we simply need to notice that $\left[\frac{\partial}{\partial x}, \frac{\partial}{\partial y}\right]=0\in\Delta$ to conclude that $\Delta$ is involutive. Instead, consider $\Delta=\left\\{\frac{\partial}{\partial x}, x\frac{\partial}{\partial y}+\frac{\partial}{\partial z}\right\\}$. Now,
 \\[
 \begin{align}
-\left[\frac{\partial}{\partial x}, x\frac{\partial}{\partial y}+\frac{\partial}{\partial z}\right] &= \left[\frac{\partial}{\partial x}, x\frac{\partial}{\partial y}\right]+\cancelto{0}{\left[\frac{\partial}{\partial x}, \frac{\partial}{\partial z}\right]}\\\
-&=\frac{\partial}{\partial x}\left(x\frac{\partial}{\partial y}\right) - \cancelto{0}{x\frac{\partial}{\partial y}\left(\frac{\partial}{\partial x}\right)} \\\
-&= \frac{\partial}{\partial y}
+\left[\frac{\partial}{\partial x}, x\frac{\partial}{\partial y}+\frac{\partial}{\partial z}\right] &= \left[\frac{\partial}{\partial x}, x\frac{\partial}{\partial y}\right]+\cancelto{0}{\left[\frac{\partial}{\partial x}, \frac{\partial}{\partial z}\right]} \notag \\\\ 
+&=\frac{\partial}{\partial x}\left(x\frac{\partial}{\partial y}\right) - \cancelto{0}{x\frac{\partial}{\partial y}\left(\frac{\partial}{\partial x}\right)} \notag \\\\ 
+&= \frac{\partial}{\partial y} \notag
 \end{align}
 \\]
 We require this to be a linear combination of the elements of $\Delta$; however, note that
