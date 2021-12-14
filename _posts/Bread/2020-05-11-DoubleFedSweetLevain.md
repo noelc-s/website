@@ -1,4 +1,5 @@
 ---
+display_to_feed: true
 layout:     post
 title:      Double Fed Sweet Levain Bread
 subtitle:   pg. 182

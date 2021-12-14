@@ -1,4 +1,5 @@
 ---
+display_to_feed: true
 layout:     post
 title:      ACM 113
 author:     Noel Csomay-Shanklin

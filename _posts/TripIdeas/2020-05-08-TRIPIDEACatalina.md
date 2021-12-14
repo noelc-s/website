@@ -1,4 +1,5 @@
 ---
+display_to_feed: false
 layout:     post
 title:      Trans Catalina Trail
 subtitle:   In a day

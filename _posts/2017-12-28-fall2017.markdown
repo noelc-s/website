@@ -1,4 +1,5 @@
 ---
+display_to_feed: true
 layout:     post
 title:      Fall 2017
 subtitle:   St. George, UT -- Rocky Mountain National Park, CO

@@ -3,6 +3,7 @@ layout: page
 ---
 				<table>
 {% for post in paginator.posts %}
+{% if post.display_to_feed %}
 <div class="post-preview">
 				<tr style="border-bottom:1px solid #ccc">
 								<td style="vertical-align:middle">
@@ -26,6 +27,7 @@ layout: page
 								</td>
 				</tr>
 </div>
+{% endif %}
 {% endfor %}
 
 				</table>

@@ -1,4 +1,5 @@
 ---
+display_to_feed: true
 layout:     post
 title:      Optimal Appartment Locator
 date:       2018-12-24

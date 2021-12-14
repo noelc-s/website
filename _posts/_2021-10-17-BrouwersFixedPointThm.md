@@ -1,4 +1,5 @@
 ---
+display_to_feed: true
 layout:     post
 title:      Brouwer's fixed-point theorem
 subtitle:   An Application of Homology and Category Theory

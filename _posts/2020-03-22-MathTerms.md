@@ -1,4 +1,5 @@
 ---
+display_to_feed: true
 layout:     post
 title:      Mathematical Terminology
 author:     Noel Csomay-Shanklin

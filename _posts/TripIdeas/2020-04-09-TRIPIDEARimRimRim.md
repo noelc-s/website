@@ -1,4 +1,5 @@
 ---
+display_to_feed: false
 layout:     post
 title:      Rim-Rim-Rim
 subtitle:   In a day

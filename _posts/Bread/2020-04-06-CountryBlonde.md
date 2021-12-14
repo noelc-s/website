@@ -1,4 +1,5 @@
 ---
+display_to_feed: true
 layout:     post
 title:      Overnight Coutry Blonde
 subtitle:   pg. 168

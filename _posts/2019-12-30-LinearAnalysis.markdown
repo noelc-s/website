@@ -1,4 +1,5 @@
 ---
+display_to_feed: true
 layout:     post
 title:      CMS 107
 author:     Noel Csomay-Shanklin

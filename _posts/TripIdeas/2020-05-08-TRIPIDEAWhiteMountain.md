@@ -1,4 +1,5 @@
 ---
+display_to_feed: false
 layout:     post
 title:      White Mountain
 subtitle:   via West Ridge

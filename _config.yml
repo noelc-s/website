@@ -69,7 +69,7 @@ prose:
     _posts:
       - name: "subtitle"
         field:
-          element: "text"
+          authorelement: "text"
           label: "Sub-Title (Short Description)"
           value: ""
       - name: "layout"

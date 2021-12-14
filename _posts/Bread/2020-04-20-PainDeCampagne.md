@@ -1,4 +1,5 @@
 ---
+display_to_feed: true
 layout:     post
 title:      Pain de Campagne
 subtitle:   pg. 140

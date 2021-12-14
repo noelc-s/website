@@ -1,4 +1,5 @@
 ---
+display_to_feed: true
 layout:     post
 title:      Supporting Hyperplane Theorem
 author:     Noel Csomay-Shanklin

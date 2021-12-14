@@ -1,4 +1,5 @@
 ---
+display_to_feed: true
 layout:     post
 title:      Model Uncertainty and Machine Learning
 author:     Noel Csomay-Shanklin

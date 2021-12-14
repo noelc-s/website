@@ -1,4 +1,5 @@
 ---
+display_to_feed: true
 layout:     post
 title:      Mineral Hunting
 subtitle:   List of mineral hunting spots

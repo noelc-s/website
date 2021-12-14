@@ -1,4 +1,5 @@
 ---
+display_to_feed: true
 layout:     post
 title:      Fast Trajectory Generation for Quadrupedal Walking on Slopes
 subtitle:   Dynamic Walking 2020

@@ -1,4 +1,5 @@
 ---
+display_to_feed: true
 layout:     post
 title:      Why Bread is so Sensational
 author:     Noel Csomay-Shanklin

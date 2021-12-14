@@ -1,4 +1,5 @@
 ---
+display_to_feed: true
 layout:     post
 title:      Wilson via Echo Mountain
 author:     Noel Csomay-Shanklin

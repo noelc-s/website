@@ -1,4 +1,5 @@
 ---
+display_to_feed: true
 layout:     post
 title:      Mission Trails Regional Park
 subtitle:   5 Peaks 

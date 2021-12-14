@@ -1,4 +1,5 @@
 ---
+display_to_feed: true
 layout:     post
 title:      CDS 131
 author:     Noel Csomay-Shanklin

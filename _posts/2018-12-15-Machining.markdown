@@ -1,4 +1,5 @@
 ---
+display_to_feed: true
 layout:     post
 title:      Machining
 subtitle:   Parts Manufactured for Various Research Projects

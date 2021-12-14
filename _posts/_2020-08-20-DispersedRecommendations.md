@@ -1,4 +1,5 @@
 ---
+display_to_feed: true
 layout:     post
 title:      Last Minute Hikes
 subtitle:   List of Dispersed Camping Spots

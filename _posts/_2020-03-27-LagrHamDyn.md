@@ -1,4 +1,5 @@
 ---
+display_to_feed: true
 layout:     post
 title:      Lagrangian and Hamiltonian Dynamics
 author:     Noel Csomay-Shanklin

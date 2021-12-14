@@ -1,4 +1,5 @@
 ---
+display_to_feed: false
 layout:     post
 title:      University Peak
 subtitle:   via South Slopes

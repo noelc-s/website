@@ -1,4 +1,5 @@
 ---
+display_to_feed: true
 layout:     post
 title:		Stochastic Least Squares
 subtitle:   An Application of Modules
