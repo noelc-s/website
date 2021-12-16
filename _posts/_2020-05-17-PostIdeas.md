@@ -17,3 +17,7 @@ category:   Projects
 * Boost up the Lie Theory page with some group theory
 * Mineral pictures
 * Robust MPC (RSRG slides)
+* Poincare Duality
+* Beautiful Work: Jenna, Tai Bradley, crane
+* memes
+* Why save money in grad school: Don't

@@ -16,5 +16,6 @@ Image Compression:
 Math Sites:
 * [Tai-Danae Bradley](https://www.math3ma.com/)
 * [Andrew D. Lewis](https://mast.queensu.ca/~andrew/)
-
+* [Terry Tao](https://terrytao.wordpress.com/)
+* [All things Bézier](https://pomax.github.io/bezierinfo/)
 
