@@ -20,7 +20,7 @@ category:   school
     * [Khalil's Perspective [Book] ◇](https://www.researchgate.net/profile/Muhammad_Ahsan23/post/What_is_the_general_principle_of_designing_the_switching_control_in_sliding_mode_control/attachment/59d62f0dc49f478072e9f5e3/AS%3A272534484783104%401441988692243/download/H-K-Khalil-Nonlinear-Systems-3rd-Edition-2002.pdf)
     * [Sastry's Perspective [Book] ◇](https://link.springer.com/book/10.1007/978-1-4757-3108-8)
     * [Sontag's Perspective [Book] ◇◇](https://link.springer.com/book/10.1007/978-1-4612-0577-7)
-    * [Stability [Book] □](https://www.tandfonline.com/doi/abs/10.1080/00207179208934253?journalCode=tcon20)
+    * [(Lyapunov) Stability [Book] □](https://www.tandfonline.com/doi/abs/10.1080/00207179208934253?journalCode=tcon20)
     * [Safety [Paper] ◇](https://arxiv.org/pdf/1903.11199.pdf)
 
 ### Optimization:
@@ -29,6 +29,7 @@ category:   school
     * [Convex Optimization [Videos] ◇](https://www.youtube.com/watch?v=McLq1hEq3UY&list=PL3940DD956CDF0622)
   * Trajectory Optimization:
     * [Introduction [Video] □](https://www.youtube.com/watch?v=wlkRYMVUZTs)
+    * [Matthew Kelly's Perspective [Site] □](http://www.matthewpeterkelly.com/tutorials/trajectoryOptimization/index.html)
 
 ### Online Planning:
   * [A crash course on MPC (Lectures 1-6) [Slides] □](https://1five9.github.io/)
@@ -36,8 +37,9 @@ category:   school
   * [MPPI [Video Tutorial] □](https://www.youtube.com/watch?v=19QLyMuQ_BE)
 
 ### Robotics:
-* [Russ Tedrake's Perspective [Book] ◇](http://underactuated.mit.edu/index.html)
+* [Russ Tedrake's Perspective [Site] ◇](http://underactuated.mit.edu/index.html)
 * [Russ Tedrake's Perspective [Videos] □](https://www.youtube.com/watch?v=OmSQ30w-Gd0&list=PLkx8KyIQkMfUmB3j-DyP58ThDXM7enA8x)
+* [Hybrid Systems Modeling and Hybrid Zero Dynamics [Paper] ◇](http://ames.caltech.edu/Grizzle_Plenary_NOLCOS2010_Final.pdf)
 
 ### Mathematics:
 * [Understanding Analysis [Book] □](https://www.math.ucdavis.edu/~babson/MAT127B/abbott-second-edition.pdf)
