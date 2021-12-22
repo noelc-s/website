@@ -9,6 +9,129 @@ category:   research
 ---
 <!-- Start Writing Below in Markdown -->
 
+
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.column_2{
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+img.rounded-corners {
+  border-radius: 6px;
+}
+img.rotate_image {
+  transform: rotate(90deg);
+  }
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
+<div class="row">
+  <div class="column">
+    <img class="rounded-corners" src="/website/img/Machined_Parts/1.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img class="rounded-corners" src="/website/img/Machined_Parts/2.jpg" alt="Snow" style="width:100%">
+  </div>  <div class="column">
+    <img class="rounded-corners" src="/website/img/Machined_Parts/5.jpg" alt="Snow" style="width:100%">
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <img class="rounded-corners" src="/website/img/Machined_Parts/3.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img class="rounded-corners" src="/website/img/Machined_Parts/4.jpg" alt="Snow" style="width:100%">
+  </div>  <div class="column">
+    <img class="rounded-corners" src="/website/img/Machined_Parts/6.jpg" alt="Snow" style="width:100%">
+  </div>
+</div>
+<div class="row">
+  <div class="column_2">
+    <img class="rounded-corners" src="/website/img/Machined_Parts/7.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column_2">
+    <img class="rounded-corners" src="/website/img/Machined_Parts/9.jpg" alt="Snow" style="width:100%">
+</div>
+<div class="row">
+  <div class="column">
+    <img class="rounded-corners" src="/website/img/Machined_Parts/10.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img class="rounded-corners" src="/website/img/Machined_Parts/11.jpg" alt="Snow" style="width:100%">
+  </div>  <div class="column">
+    <img class="rounded-corners" src="/website/img/Machined_Parts/13.jpg" alt="Snow" style="width:100%">
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <img class="rounded-corners" src="/website/img/Machined_Parts/14.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img class="rounded-corners" src="/website/img/Machined_Parts/12.jpg" alt="Snow" style="width:100%">
+  </div>  <div class="column">
+    <img class="rounded-corners" src="/website/img/Machined_Parts/15.jpg" alt="Snow" style="width:100%">
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <img class="rounded-corners" src="/website/img/Machined_Parts/17.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img class="rounded-corners" src="/website/img/Machined_Parts/18.jpg" alt="Snow" style="width:100%">
+  </div>  <div class="column">
+    <img class="rounded-corners" src="/website/img/Machined_Parts/19.jpg" alt="Snow" style="width:100%">
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <img class="rounded-corners" src="/website/img/Machined_Parts/20.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img class="rounded-corners" src="/website/img/Machined_Parts/21.jpg" alt="Snow" style="width:100%">
+  </div>  <div class="column">
+    <img class="rounded-corners" src="/website/img/Machined_Parts/23.jpg" alt="Snow" style="width:100%">
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <img class="rounded-corners" src="/website/img/Machined_Parts/24.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img class="rounded-corners" src="/website/img/Machined_Parts/25_v2.jpg" alt="Snow" style="width:100%">
+  </div>  <div class="column">
+    <img class="rounded-corners" src="/website/img/Machined_Parts/27.jpg" alt="Snow" style="width:100%">
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <img class="rounded-corners" src="/website/img/Machined_Parts/8.jpg" alt="Snow" style="width:100%">
+  </div>
+  <div class="column">
+    <img class="rounded-corners" src="/website/img/Machined_Parts/16.jpg" alt="Snow" style="width:100%">
+  </div>  <div class="column">
+    <img class="rounded-corners" src="/website/img/Machined_Parts/22.jpg" alt="Snow" style="width:100%">
+  </div>
+</div>
+
+<!-- </body> -->
+
+<!-- 
 <script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/dist/pa-embed-player.min.js" async></script>
 <div class="pa-embed-player" style="width:100%; height:480px; display:none;"
   data-link="https://photos.app.goo.gl/6H2TEqTi4bAQmqjn7"
@@ -45,3 +168,4 @@ category:   research
   <img data-src="https://lh3.googleusercontent.com/kjoo9lhy8PHPg_pzo7G2gXLx-yM0SK3hWT85FBrGmMbeHC1zGU_2-uCBo3aIbSrNvkOXeZn68H6Fu79OBTilxxz9INuJA5zWPafTH1SdxbLfp4qMqqrq7OqZzJNALYqCoapRpbDzW7c=w1920-h1080" src="" alt="" />
 </div>
 
+ -->

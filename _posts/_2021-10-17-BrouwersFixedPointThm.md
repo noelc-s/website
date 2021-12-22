@@ -27,6 +27,8 @@ We can derive chain complexes from topological spaces in the following way: Let 
 
 Singular homology can be considered a functor from the category of chain complexes to the category of abelian groups.
 
+What is a chain complex? Why abelian groups? what is homology?
+
 Apyling the reduced singular homology functor, we 
 
 <center><img style="margin:20px 20px" width="70%" src="{{ site.baseurl }}/img/Brouwer/cat2.png"></center>

@@ -21,3 +21,13 @@ category:   Projects
 * Beautiful Work: Jenna, Tai Bradley, crane
 * memes
 * Why save money in grad school: Don't
+
+* Useful Reference Materials:
+	* AT: https://files.vipulnaik.com/exposition/duality.pdf
+	* Nonlinear Control: Isidori
+* Inspirational Blogs:
+	* https://vipulnaik.com/blog/
+	* Fermentation
+	* Tai Bradley
+	* https://urosolia.github.io/jekyll/update/2021/04/27/MPC-Part-I.html
+	
