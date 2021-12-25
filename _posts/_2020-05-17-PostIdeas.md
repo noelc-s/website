@@ -15,19 +15,20 @@ category:   Projects
 * The shape of the orbitals from the wave equation
 * Group theory and crystallography
 * Boost up the Lie Theory page with some group theory
-* Mineral pictures
+* Make the math terms page a page of examples instead of copying wikipedia
 * Robust MPC (RSRG slides)
-* Poincare Duality
+* Poincare Duality, dual topological structures
 * Beautiful Work: Jenna, Tai Bradley, crane
 * memes
 * Why save money in grad school: Don't
+* Safety and Stability
 
-* Useful Reference Materials:
-	* AT: https://files.vipulnaik.com/exposition/duality.pdf
-	* Nonlinear Control: Isidori
 * Inspirational Blogs:
 	* https://vipulnaik.com/blog/
 	* Fermentation
 	* Tai Bradley
 	* https://urosolia.github.io/jekyll/update/2021/04/27/MPC-Part-I.html
 	
+* Beautiful work:
+	* Tai Bradley thesis
+	* Jenna reher review paper
