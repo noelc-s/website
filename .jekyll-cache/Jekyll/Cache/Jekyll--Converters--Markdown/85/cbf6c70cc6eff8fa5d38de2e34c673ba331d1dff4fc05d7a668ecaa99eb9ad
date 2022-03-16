@@ -1,0 +1,297 @@
+I"n+<!-- Start Writing Below in Markdown -->
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th style="text-align: center">Height</th>
+      <th style="text-align: center">Elevation Gain</th>
+      <th style="text-align: center">Distance</th>
+      <th style="text-align: center">Time</th>
+      <th style="text-align: center">Summits</th>
+      <th style="text-align: center">Attempts</th>
+      <th style="text-align: center">Date*</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Split Mountain</td>
+      <td style="text-align: center">14,064’</td>
+      <td style="text-align: center">9,274’</td>
+      <td style="text-align: center">19.7 mi</td>
+      <td style="text-align: center">2d</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">4</td>
+      <td style="text-align: center">07/18/21</td>
+    </tr>
+    <tr>
+      <td>Cable Mountain via East Entrance Trailhead</td>
+      <td style="text-align: center">6,822’</td>
+      <td style="text-align: center">1,955’</td>
+      <td style="text-align: center">17.4 mi</td>
+      <td style="text-align: center">7h50m</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">12/15/20</td>
+    </tr>
+    <tr>
+      <td>Cactus to the Clouds</td>
+      <td style="text-align: center">10,833’</td>
+      <td style="text-align: center">10,398’</td>
+      <td style="text-align: center">19.9 mi</td>
+      <td style="text-align: center">13h10m</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">12/6/20</td>
+    </tr>
+    <tr>
+      <td>Lukiens via Kell ‘Em Quick</td>
+      <td style="text-align: center">5,066’</td>
+      <td style="text-align: center">3,797’</td>
+      <td style="text-align: center">10.1 mi</td>
+      <td style="text-align: center">5h30m</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">11/29/20</td>
+    </tr>
+    <tr>
+      <td>Mt. Lowe via Inspiration Point</td>
+      <td style="text-align: center">5,604’</td>
+      <td style="text-align: center">4,364’</td>
+      <td style="text-align: center">13.2 mi</td>
+      <td style="text-align: center">3h20m</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">11/28/20</td>
+    </tr>
+    <tr>
+      <td>Mt. Tom West Face via Horton Lakes</td>
+      <td style="text-align: center">13,658’</td>
+      <td style="text-align: center">4,812’</td>
+      <td style="text-align: center">13.8 mi</td>
+      <td style="text-align: center">8h45m</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">08/16/20</td>
+    </tr>
+    <tr>
+      <td>Mt. Langley</td>
+      <td style="text-align: center">14,042’</td>
+      <td style="text-align: center">4,688’</td>
+      <td style="text-align: center">23 mi</td>
+      <td style="text-align: center">12h</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">08/01/20</td>
+    </tr>
+    <tr>
+      <td>Mt. Islip via Crystal Lake</td>
+      <td style="text-align: center">8,251’</td>
+      <td style="text-align: center">2,970’</td>
+      <td style="text-align: center">10.8 mi</td>
+      <td style="text-align: center">2h21m</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">7/26/20</td>
+    </tr>
+    <tr>
+      <td>Center Basin via Kearsarge Pass</td>
+      <td style="text-align: center">11,000’</td>
+      <td style="text-align: center">7,600’</td>
+      <td style="text-align: center">33 mi</td>
+      <td style="text-align: center">2d</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">06/28/20</td>
+    </tr>
+    <tr>
+      <td>Three Points via Chantry Flats</td>
+      <td style="text-align: center">5,840’</td>
+      <td style="text-align: center">8,350’</td>
+      <td style="text-align: center">29.7 mi</td>
+      <td style="text-align: center">15h15m</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">06/13/20</td>
+    </tr>
+    <tr>
+      <td>Mt. Lukins</td>
+      <td style="text-align: center">5,066’</td>
+      <td style="text-align: center">2,899’</td>
+      <td style="text-align: center">14.72 mi</td>
+      <td style="text-align: center">2h56m</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">05/23/20</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.gaiagps.com/public/GvYDXpjF85SvlLr66nWFnjVM">Pacifico Mountain</a></td>
+      <td style="text-align: center">7,077’</td>
+      <td style="text-align: center">2,133’</td>
+      <td style="text-align: center">11.7 mi</td>
+      <td style="text-align: center">5h15m</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">04/11/20</td>
+    </tr>
+    <tr>
+      <td><a href="https://www.gaiagps.com/public/LfEXlqcp3cRMEcG485XGRUkl">Verdugo Peak Loop</a></td>
+      <td style="text-align: center">3,120’</td>
+      <td style="text-align: center">2,567’</td>
+      <td style="text-align: center">13.5 mi</td>
+      <td style="text-align: center">2h55m</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">03/23/20</td>
+    </tr>
+    <tr>
+      <td>Kentucky Lucky Chicken</td>
+      <td style="text-align: center">3,000’</td>
+      <td style="text-align: center">1,000’</td>
+      <td style="text-align: center">6.93 mi</td>
+      <td style="text-align: center">1h3m</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">12/30/19</td>
+    </tr>
+    <tr>
+      <td>Strawberry Peak Loop</td>
+      <td style="text-align: center">6,165’</td>
+      <td style="text-align: center">2,740’</td>
+      <td style="text-align: center">14.5 mi</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">Winter ‘19</td>
+    </tr>
+    <tr>
+      <td>El Cajon Mountain</td>
+      <td style="text-align: center">3,648’</td>
+      <td style="text-align: center">3,151’</td>
+      <td style="text-align: center">11.1 mi</td>
+      <td style="text-align: center">4h36m</td>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">11/30/19</td>
+    </tr>
+    <tr>
+      <td>Mt. Whitney</td>
+      <td style="text-align: center">14,505’</td>
+      <td style="text-align: center">6,145’</td>
+      <td style="text-align: center">22 mi</td>
+      <td style="text-align: center">14h30m</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">08/11/19</td>
+    </tr>
+    <tr>
+      <td>Mt. Wilson via Echo</td>
+      <td style="text-align: center">5,712’</td>
+      <td style="text-align: center">6,549’</td>
+      <td style="text-align: center">28.1 mi</td>
+      <td style="text-align: center">8h20m</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">05/18/19</td>
+    </tr>
+    <tr>
+      <td>Echo Mountain</td>
+      <td style="text-align: center">3,205’</td>
+      <td style="text-align: center">1,417’</td>
+      <td style="text-align: center">5.4 mi</td>
+      <td style="text-align: center">1h20m</td>
+      <td style="text-align: center">3</td>
+      <td style="text-align: center">3</td>
+      <td style="text-align: center">05/18/19</td>
+    </tr>
+    <tr>
+      <td>5 Peaks</td>
+      <td style="text-align: center">1,594’</td>
+      <td style="text-align: center">4,438’</td>
+      <td style="text-align: center">19.0 mi</td>
+      <td style="text-align: center">5h8m</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">12/18/18</td>
+    </tr>
+    <tr>
+      <td>White Mountain via Access Road</td>
+      <td style="text-align: center">14,246’</td>
+      <td style="text-align: center">3,360’</td>
+      <td style="text-align: center">15 mi</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">07/07/18</td>
+    </tr>
+    <tr>
+      <td>San Gregornio</td>
+      <td style="text-align: center">11,503’</td>
+      <td style="text-align: center">5,470’</td>
+      <td style="text-align: center">18.5 mi</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">06/23/18</td>
+    </tr>
+    <tr>
+      <td>Alta Peak</td>
+      <td style="text-align: center">11,207’</td>
+      <td style="text-align: center">4,064’</td>
+      <td style="text-align: center">14.9 mi</td>
+      <td style="text-align: center">7h</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">06/09/18</td>
+    </tr>
+    <tr>
+      <td>Mt. Baldy</td>
+      <td style="text-align: center">10,069’</td>
+      <td style="text-align: center">3,900’</td>
+      <td style="text-align: center">11.3 mi</td>
+      <td style="text-align: center">-</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">Summer ‘18</td>
+    </tr>
+    <tr>
+      <td>Rim-Rim-Rim Grand Canyon</td>
+      <td style="text-align: center">8,178’</td>
+      <td style="text-align: center">10,919’</td>
+      <td style="text-align: center">47.5 mi</td>
+      <td style="text-align: center">5d</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">12/28/16</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>* of most recent ascent</p>
+
+<p>Other Areas Hiked:</p>
+<ul>
+  <li>Stubaier Gletscher, Stubaital, Austria</li>
+  <li>Cinque Terre, Italy</li>
+  <li>Montalcino, Italy</li>
+  <li>Cliffs of Moher, Ireland</li>
+  <li>Bietenhorn, Lauterbrunnen Valley, Switzerland</li>
+  <li>Zermatt, Switzerland</li>
+  <li>Catalina Island, CA</li>
+  <li>San Diego, CA</li>
+  <li>Los Angeles, CA</li>
+  <li>Tallulah Falls, GA</li>
+  <li>St. George, UT</li>
+</ul>
+
+<p>To Do:</p>
+<ul>
+  <li>Trans Catalina Trail</li>
+  <li>Rim-Rim-Rim (Run)</li>
+  <li>University Peak</li>
+  <li>Cloudripper</li>
+  <li>Tinnemaha Ridge</li>
+  <li>White Mountain via West Ridge</li>
+</ul>
+
+:ET

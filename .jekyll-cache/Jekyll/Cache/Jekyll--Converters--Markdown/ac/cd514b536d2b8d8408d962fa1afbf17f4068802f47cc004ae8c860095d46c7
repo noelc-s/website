@@ -1,0 +1,17 @@
+I"ä<p>Imagine a pendulum with \(n\) segments. The \(i^{th}\) joint will connect the \((i-1)^{th}\) segment to the \(i^{th}\) segment. Let \(\mathbf{\theta} \in \mathbb{R}^n\) denote the \(n\) internally defined joint angles, \(\mathbf{r} \in \mathbb{R}^{n+1}\) the locations of the \(n\) joints with respect to the global origin, \(\mathbf{\omega} \in \mathbb{R}^n\) the segment rotational velocities, and \(\mathbf{\alpha} \in \mathbb{R}^n\) the segment rotational accelerations. It follows that<br />
+\(r_{i} = r_{i-1} + l_i*(sin(\theta_{i})\hat{i}-cos(\theta_{i})\hat{j})\)<br />
+\(omega_{i} = \dot{\theta}_i\hat{k}\)<br />
+\(alpha_{i} = \ddot{\theta}_i\hat{k}\)</p>
+
+<p>Yet to come: Latex describing equation of motion generation</p>
+<h1 id="simulation">Simulation</h1>
+
+<script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/dist/pa-embed-player.min.js" async=""></script>
+
+<div class="pa-embed-player" style="width:100%; height:480px; display:none;" data-link="https://photos.app.goo.gl/i3DJbgmBynJDL1dUA" data-title="N-Pendulum" data-description="3 new photos Â· Album by Noel C-S">
+  <img data-src="https://lh3.googleusercontent.com/fIRRJ5KddIoyxoG1j0vCjW3BL6QRdSZxF4CnkuFC0536vyvSE7GkjsEib1J-UHws_67Mc_WdG2f9dFNCbSWcJnJaQZSOsRjbsAfLCOUBwD9MXtYdUBM43sEfhsYCp7eDUDT-Fa2WzQw=w1920-h1080" src="" alt="" />
+  <img data-src="https://lh3.googleusercontent.com/x3GlCZ_HViRqI1Gb9yC25htlUlXcpqvCWcSTKqX7ExneKOJeCBIlt_-5rGA0gAxlfLEPak2-8eM6mkjBlH7LxtlqREQUjbGQagHwOXoVJNLRu4CRvjsb-_8PdO1pMXGKk7nS-3CRhCQ=w1920-h1080" src="" alt="" />
+  <img data-src="https://lh3.googleusercontent.com/wO9QVrXmGOMnw3PYh-Qu6VU964xvFFSuDHrarKDCrlDl5uR8KGdFNXNSkKc0hru6I3NVsUl9_JDP8G6QvMlUHRHXhnjKRb-R3KLnhMs8Fhl_bsFM4_WViYR9J2fRlAz0Oxj-NPwGKms=w1920-h1080" src="" alt="" />
+</div>
+
+:ET

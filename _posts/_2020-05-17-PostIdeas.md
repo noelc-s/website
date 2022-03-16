@@ -22,12 +22,17 @@ category:   Projects
 * memes
 * Why save money in grad school: Don't
 * Safety and Stability
+* Nonlinear Controllability and an Intuitive Explanation of Frobenius Theorem
+* Euler discretization preserves controllability, (lin then disc)
+* Euler discretization and first order taylor approximation commute!
 
 * Inspirational Blogs:
 	* https://vipulnaik.com/blog/
+	* https://vigoroushandwaving.wordpress.com/
 	* Fermentation
 	* Tai Bradley
 	* https://urosolia.github.io/jekyll/update/2021/04/27/MPC-Part-I.html
+	* https://www.alex-winkler.com/#sec-landing
 	
 * Beautiful work:
 	* Tai Bradley thesis

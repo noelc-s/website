@@ -1,0 +1,172 @@
+I"<!-- Start Writing Below in Markdown -->
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th style="text-align: center">Location</th>
+      <th style="text-align: center">GPS</th>
+      <th style="text-align: center">Minerals</th>
+      <th style="text-align: center">Rating</th>
+      <th style="text-align: center">Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Acton Canyon</td>
+      <td style="text-align: center">Acton, CA</td>
+      <td style="text-align: center">34.477607, -118.212783</td>
+      <td style="text-align: center">Agates</td>
+      <td style="text-align: center">2/10</td>
+      <td style="text-align: center">08/23/20</td>
+    </tr>
+    <tr>
+      <td>Alvord Mountain</td>
+      <td style="text-align: center">Manix, CA</td>
+      <td style="text-align: center">35.068693, -116.626949</td>
+      <td style="text-align: center">Calcite, Chrysicola, Hematite, bubbling Chalcedony</td>
+      <td style="text-align: center">8/10</td>
+      <td style="text-align: center">12/13/20</td>
+    </tr>
+    <tr>
+      <td>Afton Canyon</td>
+      <td style="text-align: center">Baker, CA</td>
+      <td style="text-align: center">35.036576, -116.384715</td>
+      <td style="text-align: center">Agates</td>
+      <td style="text-align: center">3/10</td>
+      <td style="text-align: center">08/13/20</td>
+    </tr>
+    <tr>
+      <td>Turquoise Mountain</td>
+      <td style="text-align: center">Halloran Springs, CA</td>
+      <td style="text-align: center">35.430472, -115.957815</td>
+      <td style="text-align: center">Turquoise and Talk dendrites</td>
+      <td style="text-align: center">6/10</td>
+      <td style="text-align: center">12/17/20</td>
+    </tr>
+    <tr>
+      <td>Felix Mine</td>
+      <td style="text-align: center">Azusa, CA</td>
+      <td style="text-align: center">34.152303, -117.898632</td>
+      <td style="text-align: center">Flourite</td>
+      <td style="text-align: center">6/10</td>
+      <td style="text-align: center">01/09/21</td>
+    </tr>
+    <tr>
+      <td>Cascade Canyon</td>
+      <td style="text-align: center">Mt. Baldy, CA</td>
+      <td style="text-align: center">34.211950, -117.661174</td>
+      <td style="text-align: center">Pyrite, Corundum</td>
+      <td style="text-align: center">0/10</td>
+      <td style="text-align: center">01/16/20</td>
+    </tr>
+    <tr>
+      <td>Big Indian Mine</td>
+      <td style="text-align: center">Randsberg, CA</td>
+      <td style="text-align: center">35.338090, -117.665100</td>
+      <td style="text-align: center">Garnet variety – most likely spessartine, Rhodenite, manganese oxides, Actinalite</td>
+      <td style="text-align: center">7/10</td>
+      <td style="text-align: center">03/20/21</td>
+    </tr>
+    <tr>
+      <td>Kramer Hills</td>
+      <td style="text-align: center">San Bernadino, CA</td>
+      <td style="text-align: center">34.9458, -117.50479</td>
+      <td style="text-align: center">Opalite, Agates, Jasper, Dendrites</td>
+      <td style="text-align: center">4/10</td>
+      <td style="text-align: center">03/20/21</td>
+    </tr>
+    <tr>
+      <td>Nuevo Mine</td>
+      <td style="text-align: center">Riverside, CA</td>
+      <td style="text-align: center">33.785694, -117.127389</td>
+      <td style="text-align: center">Shorl, (Rose) Quartz</td>
+      <td style="text-align: center">5/10</td>
+      <td style="text-align: center">10/24/21</td>
+    </tr>
+  </tbody>
+</table>
+
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.column_2{
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+img.rounded-corners {
+  border-radius: 6px;
+}
+img.rotate_image {
+  transform: rotate(90deg);
+  }
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+</head>
+<body>
+
+<div class="row">
+  <div class="column">
+    <img class="rounded-corners" src="/website/img/Minerals/1.jpg" alt="Snow" style="width:100%" />
+  </div>
+  <div class="column">
+    <img class="rounded-corners" src="/website/img/Minerals/2.jpg" alt="Snow" style="width:100%" />
+  </div>  <div class="column">
+    <img class="rounded-corners" src="/website/img/Minerals/3.jpg" alt="Snow" style="width:100%" />
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <img class="rounded-corners" src="/website/img/Minerals/4.jpg" alt="Snow" style="width:100%" />
+  </div>
+  <div class="column">
+    <img class="rounded-corners" src="/website/img/Minerals/5.jpg" alt="Snow" style="width:100%" />
+  </div>  <div class="column">
+    <img class="rounded-corners" src="/website/img/Minerals/6.jpg" alt="Snow" style="width:100%" />
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <img class="rounded-corners" src="/website/img/Minerals/7.jpg" alt="Snow" style="width:100%" />
+  </div>
+  <div class="column">
+    <img class="rounded-corners" src="/website/img/Minerals/8.jpg" alt="Snow" style="width:100%" />
+  </div>  <div class="column">
+    <img class="rounded-corners" src="/website/img/Minerals/9.jpg" alt="Snow" style="width:100%" />
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <img class="rounded-corners" src="/website/img/Minerals/10.jpg" alt="Snow" style="width:100%" />
+  </div>
+  <div class="column">
+    <img class="rounded-corners" src="/website/img/Minerals/11.jpg" alt="Snow" style="width:100%" />
+  </div>  <div class="column">
+    <img class="rounded-corners" src="/website/img/Minerals/12.jpg" alt="Snow" style="width:100%" />
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <img class="rounded-corners" src="/website/img/Minerals/13.jpg" alt="Snow" style="width:100%" />
+  </div>
+  <div class="column">
+    <img class="rounded-corners" src="/website/img/Minerals/14.jpg" alt="Snow" style="width:100%" />
+  </div>  <div class="column">
+    <img class="rounded-corners" src="/website/img/Minerals/15.jpg" alt="Snow" style="width:100%" />
+  </div>
+</div>
+</body>
+:ET

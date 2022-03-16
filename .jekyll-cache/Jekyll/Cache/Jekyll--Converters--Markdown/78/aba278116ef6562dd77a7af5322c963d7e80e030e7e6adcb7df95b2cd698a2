@@ -1,0 +1,45 @@
+I"Œ<!-- Start Writing Below in Markdown -->
+<p><button onclick="CV()">Show Computer Vision Final Report</button></p>
+
+<div id="CV" align="center">
+<iframe width="1170" height="1000" src="https://cinelimb.gitlab.io" frameborder="0" allowfullscreen=""></iframe>
+</div>
+
+<p><button onclick="ROBO()">Show Robotics Final Report</button></p>
+<div id="ROBO" align="center">
+<iframe width="1170" height="1000" src="https://docs.google.com/document/d/e/2PACX-1vTq2_OzPyvj8q9MnastI3Oc4StvfWQ-MmXeogmgs6FM3G_fn8wZPfp9ti4vp2DkFbOqUZ0zA-8sXySy/pub" frameborder="0" allowfullscreen=""></iframe>
+</div>
+
+<script>
+document.getElementById("CV").style.display = "none"; 
+document.getElementById("ROBO").style.display = "none"; 
+function CV() {
+  var x = document.getElementById("CV");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+function ROBO() {
+  var x = document.getElementById("ROBO");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>
+
+<h2 id="computer-vision-final-video">Computer Vision Final Video</h2>
+<iframe width="100%" height="700px" src="https://www.youtube.com/embed/x6rHYJMCR9k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h2 id="robotics-final-cinematic-video">Robotics Final Cinematic Video</h2>
+<iframe width="100%" height="700px" src="https://www.youtube.com/embed/uvgOcPDV9eQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<h2 id="object-avoidance">Object Avoidance</h2>
+<iframe src="https://drive.google.com/file/d/1OyUX6ZNpQaGmGVYz-PDUUZRysdQ64er4/preview" width="100%" height="700px"></iframe>
+
+<iframe src="https://drive.google.com/file/d/1UBenhGRpwJLISVhrdl3U0jHusKzUljrK/preview" width="100%" height="700px"></iframe>
+:ET

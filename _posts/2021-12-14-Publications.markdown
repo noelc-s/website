@@ -9,11 +9,11 @@ category:   research
 # Papers 
 ## Submitted 
 
-*Neural Gaits: Learning Bipedal Locomotion via Control Barrier functions and Zero Dynamics Policies*, Ivan Dario Jimenez Rodriguez\*, Noel Csomay-Shanklin\*, Yisong Yue, Aaron D. Ames, submitted to L4DC 2022.
+<!-- *Neural Gaits: Learning Bipedal Locomotion via Control Barrier functions and Zero Dynamics Policies*, Ivan Dario Jimenez Rodriguez\*, Noel Csomay-Shanklin\*, Yisong Yue, Aaron D. Ames, submitted to L4DC 2022. -->
 
-*Learning Controller Gains on Bipedal Walking Robots via User Preferences*, Noel Csomay-Shanklin, Maegan Tucker, Min Dai, Jenna Reher, Aaron Ames, submitted to ICRA 2022. Available at: [arXiv: 2102.13201](https://arxiv.org/abs/2102.13201)
+<!-- *Learning Controller Gains on Bipedal Walking Robots via User Preferences*, Noel Csomay-Shanklin, Maegan Tucker, Min Dai, Jenna Reher, Aaron Ames, submitted to ICRA 2022. Available at: [arXiv: 2102.13201](https://arxiv.org/abs/2102.13201) -->
 
-*Interactive multi-modal motion planning with Branch Model Predictive Control*, Yuxiao Chen, Ugo Rosolia, Wyatt Ubellacker, Noel Csomay-Shanklin, and Aaron D. Ames, submitted to RA-L. Available at: [arXiv: 2109.05128](https://arxiv.org/pdf/2109.05128)
+<!-- *Interactive multi-modal motion planning with Branch Model Predictive Control*, Yuxiao Chen, Ugo Rosolia, Wyatt Ubellacker, Noel Csomay-Shanklin, and Aaron D. Ames, submitted to RA-L. Available at: [arXiv: 2109.05128](https://arxiv.org/pdf/2109.05128) -->
 
 <!-- ## Accepted -->
 

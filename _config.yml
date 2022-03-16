@@ -163,7 +163,7 @@ prose:
           value: "true"
 
           # theme: jekyll-theme-cayman
-# theme: minimal-mistakes-jekyll
+theme: minimal-mistakes-jekyll
 # minimal_mistakes_skin: "dark" 
 
 remote-theme: "mmistakes/minimal-mistakes@4.24.0"

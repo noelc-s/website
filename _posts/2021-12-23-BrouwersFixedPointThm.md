@@ -219,3 +219,4 @@ where $\tilde H_{n-1}(id_{S^{n-1}}) = id_{\tilde H_{n-1}(S^{n-1})} = id_{\mathbb
 [Algebraic Topology Notes](https://www.maths.tcd.ie/~mozgovoy/data/notes_AT.pdf)<br />
 [Delta complex vs CW complex vs Simplicial complex StackExchange](https://math.stackexchange.com/questions/1528005/simplicial-complex-vs-delta-complex-vs-cw-complex/1528061)<br />
 [Complexes and Associated Homologies StackExchange](https://math.stackexchange.com/questions/3022234/homology-groups-with-different-complexes)
+[Brouwer's Fixed Point Theorem (n=2)](https://www.math3ma.com/blog/brouwers-fixed-point-theorem-proof)

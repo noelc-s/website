@@ -1,0 +1,67 @@
+I"�<h3 id="control-theory">Control Theory:</h3>
+<ul>
+  <li>Linear Control:
+    <ul>
+      <li><a href="https://www.youtube.com/user/ControlLectures">Brian Douglas [Videos] ○</a></li>
+      <li><a href="https://www.youtube.com/watch?v=Pi7l8mMjYVE&amp;list=PLMrJAkhIeNNR20Mz-VpzgfQs5zrYi085m">Control Bootcamp – Steve Brunton  [Videos] ○</a></li>
+      <li><a href="https://fbswiki.org/wiki/index.php/Feedback_Systems:_An_Introduction_for_Scientists_and_Engineers">Richard Murray’s Perspective [Book] □</a></li>
+      <li><a href="https://www.control.utoronto.ca/people/profs/francis/dft.pdf">John Doyle’s Perspective [Book] ◇</a></li>
+    </ul>
+  </li>
+  <li>Nonlinear Control:
+    <ul>
+      <li><a href="https://link.springer.com/book/10.1007/978-1-84628-615-5">Isidori’s Perspective [Book] ◇</a></li>
+      <li><a href="https://www.researchgate.net/profile/Muhammad_Ahsan23/post/What_is_the_general_principle_of_designing_the_switching_control_in_sliding_mode_control/attachment/59d62f0dc49f478072e9f5e3/AS%3A272534484783104%401441988692243/download/H-K-Khalil-Nonlinear-Systems-3rd-Edition-2002.pdf">Khalil’s Perspective [Book] □</a></li>
+      <li><a href="https://link.springer.com/book/10.1007/978-1-4757-3108-8">Sastry’s Perspective [Book] □</a></li>
+      <li><a href="https://link.springer.com/book/10.1007/978-1-4612-0577-7">Sontag’s Perspective [Book] ◇◇</a></li>
+      <li><a href="https://www.tandfonline.com/doi/abs/10.1080/00207179208934253?journalCode=tcon20">(Lyapunov) Stability [Book] □</a></li>
+      <li><a href="https://arxiv.org/pdf/1903.11199.pdf">Safety [Paper] □</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="optimization">Optimization:</h3>
+<ul>
+  <li>Optimization Theory:
+    <ul>
+      <li><a href="https://web.stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf">Convex Optimization [Book] □</a></li>
+      <li><a href="https://www.youtube.com/watch?v=McLq1hEq3UY&amp;list=PL3940DD956CDF0622">Convex Optimization [Videos] ○</a></li>
+    </ul>
+  </li>
+  <li>Trajectory Optimization:
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=wlkRYMVUZTs">Introduction [Video] ○</a></li>
+      <li><a href="http://www.matthewpeterkelly.com/tutorials/trajectoryOptimization/index.html">Matthew Kelly’s Perspective [Site] ○</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="online-planning">Online Planning:</h3>
+<ul>
+  <li><a href="https://1five9.github.io/">A crash course on MPC (Lectures 1-6) [Slides] □</a></li>
+  <li><a href="https://arxiv.org/pdf/1509.01149.pdf">MPPI [Paper] ◇</a></li>
+  <li><a href="https://www.youtube.com/watch?v=19QLyMuQ_BE">MPPI [Video Tutorial] □</a></li>
+</ul>
+
+<h3 id="robotics">Robotics:</h3>
+<ul>
+  <li><a href="http://underactuated.mit.edu/index.html">Russ Tedrake’s Perspective [Site] □</a></li>
+  <li><a href="https://www.youtube.com/watch?v=OmSQ30w-Gd0&amp;list=PLkx8KyIQkMfUmB3j-DyP58ThDXM7enA8x">Russ Tedrake’s Perspective [Videos] ○</a></li>
+  <li>[Hybrid Systems Modeling and Hybrid Zero Dynamics [Book] □] (http://web.eecs.umich.edu/~grizzle/papers/Westervelt_biped_control_book_15_May_2007.pdf)</li>
+  <li><a href="http://ames.caltech.edu/Grizzle_Plenary_NOLCOS2010_Final.pdf">3D Walking Robots from an HZD Perspective [Paper] □</a></li>
+</ul>
+
+<h3 id="mathematics">Mathematics:</h3>
+<ul>
+  <li><a href="https://www.math.ucdavis.edu/~babson/MAT127B/abbott-second-edition.pdf">Understanding Analysis [Book] ○</a></li>
+  <li><a href="https://www.topologywithouttears.net/topbook.pdf">Topology without Tears [Book] ○</a></li>
+  <li><a href="http://mathcenter.spb.ru/nikaan/2019/topology/4.pdf">Topology [Book] □</a></li>
+  <li><a href="https://link.springer.com/book/10.1007/978-3-319-11080-6?utm_medium=affiliate&amp;utm_source=commission_junction_authors&amp;utm_campaign=3_nsn6445_deeplink&amp;utm_content=deeplink&amp;utm_term=PID100197440">Linear Algebra Done Right [Book] ○</a></li>
+</ul>
+
+<h3 id="approachability">Approachability:</h3>
+<p>○ - Very Approachable <br />
+□ - Some Effort Needed <br />
+◇ - Requires Motivation <br />
+◇◇ - Requires Dedication</p>
+:ET

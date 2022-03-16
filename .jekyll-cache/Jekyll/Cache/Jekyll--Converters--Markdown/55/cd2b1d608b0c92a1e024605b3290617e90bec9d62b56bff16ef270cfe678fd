@@ -1,0 +1,50 @@
+I"ô<h2 id="schedule">Schedule</h2>
+<hr />
+
+<table>
+  <thead>
+    <tr>
+      <th>Time</th>
+      <th style="text-align: left">Step</th>
+      <th style="text-align: left">Notes</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>11:00 am</td>
+      <td style="text-align: left">Make Levain</td>
+      <td style="text-align: left">80/20</td>
+    </tr>
+    <tr>
+      <td>6:00 pm</td>
+      <td style="text-align: left">Mix dough</td>
+      <td style="text-align: left">halving the recipe</td>
+    </tr>
+    <tr>
+      <td>11:00 pm</td>
+      <td style="text-align: left">Shape Loaves</td>
+      <td style="text-align: left">Then refridgerate</td>
+    </tr>
+    <tr>
+      <td>11:30 am</td>
+      <td style="text-align: left">Bake</td>
+      <td style="text-align: left">Â </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="notes">Notes</h2>
+<hr />
+
+<p>Room temp was 70 F, fridge temp was 39 F. Dough was very wet, but fridge helped maintain form when transferring to dutch oven.</p>
+
+<h2 id="photos">Photos</h2>
+<hr />
+
+<script src="https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js" async=""></script>
+
+<div class="pa-carousel-widget" style="width:100%; height:480px; display:none;" data-link="https://photos.app.goo.gl/tosRKLDFmYjR7h4G8" data-title="75% Whole Wheat" data-description="2 new photos added to shared album" data-delay="120">
+  <object data="https://lh3.googleusercontent.com/0Zq4AfFyIdtmSIK1df5hBCrT4ko0OajAkO7KC4DZi8gZcLNimCpokAnXeWIHZbkJOFzRQmCcQ0lr7Z1N6zXP24Q3HLk5g5n95zq4k7rhjsQ10H6YqIThY-Z47mVGHgml6vRfb96vVg4=w1920-h1080"></object>
+  <object data="https://lh3.googleusercontent.com/zYjeIJJLRFNfxYCOPxFvhD_AHZtmy0sOwcFVbkLuopQppGuNnKYFS_T1MIVsJRCTJ-LdNfgVzPz83nhqyGjM8FyZbe89kGVbfpvs7dyb6G2hnTXW9xVYHIvwJbfPA_ksQO1auteG3L0=w1920-h1080"></object>
+</div>
+:ET
