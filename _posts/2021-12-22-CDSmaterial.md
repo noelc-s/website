@@ -39,7 +39,7 @@ category:   school
 ### Robotics:
 * [Russ Tedrake's Perspective [Site] □](http://underactuated.mit.edu/index.html)
 * [Russ Tedrake's Perspective [Videos] ○](https://www.youtube.com/watch?v=OmSQ30w-Gd0&list=PLkx8KyIQkMfUmB3j-DyP58ThDXM7enA8x)
-* [Hybrid Systems Modeling and Hybrid Zero Dynamics [Book] □] (http://web.eecs.umich.edu/~grizzle/papers/Westervelt_biped_control_book_15_May_2007.pdf)
+* [Hybrid Systems Modeling and Hybrid Zero Dynamics [Book] □](http://web.eecs.umich.edu/~grizzle/papers/Westervelt_biped_control_book_15_May_2007.pdf)
 * [3D Walking Robots from an HZD Perspective [Paper] □](http://ames.caltech.edu/Grizzle_Plenary_NOLCOS2010_Final.pdf)
 
 ### Mathematics:
