@@ -7,23 +7,16 @@ tags: 		  Research
 category:   research
 ---
 # Papers 
-<!-- ## Submitted  -->
+## Submitted 
+*Bipedal Locomotion with Nonlinear Model Predictive Control: Online Gait Generation using Whole-Body Dynamics*, Manuel Y. Galliker\*, Noel Csomay-Shanklin\*, Ruben Grandia1, Andrew J. Taylor, Farbod Farshidian, Marco Hutter, Aaron D. Ames, submitted to IROS 2022. Available at: [arXiv: 2203.07429](https://arxiv.org/pdf/2203.07429).
 
-<!-- *Learning Controller Gains on Bipedal Walking Robots via User Preferences*, Noel Csomay-Shanklin, Maegan Tucker, Min Dai, Jenna Reher, Aaron Ames, submitted to ICRA 2022. Available at: [arXiv: 2102.13201](https://arxiv.org/abs/2102.13201) -->
-
-<!-- *Interactive multi-modal motion planning with Branch Model Predictive Control*, Yuxiao Chen, Ugo Rosolia, Wyatt Ubellacker, Noel Csomay-Shanklin, and Aaron D. Ames, submitted to RA-L. Available at: [arXiv: 2109.05128](https://arxiv.org/pdf/2109.05128) -->
+*Multi-Rate Planning and Control of Uncertain Nonlinear Systems: Model Predictive Control and Control Lyapunov Functions*, Noel Csomay-Shanklin\*, Andrew J. Taylor\*, Ugo Rosolia, Aaron D. Ames, submitted to CDC 2022. Available at: [arXiv: 2204.00152](https://arxiv.org/pdf/2204.00152).
 
 ## Accepted
 
-*Neural Gaits: Learning Bipedal Locomotion via Control Barrier functions and Zero Dynamics Policies*, Ivan Dario Jimenez Rodriguez\*, Noel Csomay-Shanklin\*, Yisong Yue, Aaron D. Ames, submitted to L4DC 2022.
+*Neural Gaits: Learning Bipedal Locomotion via Control Barrier functions and Zero Dynamics Policies*, Ivan Dario Jimenez Rodriguez\*, Noel Csomay-Shanklin\*, Yisong Yue, Aaron D. Ames, to appear at L4DC 2022.
 
-<!-- *Episodic Learning for Safe Bipedal Locomotion with Control Barrier Functions and Projection-to-State Safety*, Noel Csomay-Shanklin, Ryan Cosner, Min Dai, Andrew Taylor, Aaron D. Ames, submitted to 2021 Learning For Dynamics and Controls (L4DC) conference. -->
-
-<!-- *A New Machine Learning Strategy for Locomotion Classification and Parameter Estimation using Fusion of Wearable Sensors*, Jonathan Camargo, Will Flanagan, Noel Csomay-Shanklin, Bharat Kanwar, Aaron Young, submitted to  Transactions on Neural Systems & Rehabilitation Engineering (TNSRE). -->
-
-<!-- *Coupled Control Lyapunov Functions for Interconnected Systems, with Application to Quadrupedal Locomotion*, Wen-Loong Ma, Noel Csomay-Shanklin, Shishir Kolathaya, Kaveh Akbari Hamed and Aaron D. Ames, Submitted to IEEE Robotics and Automation Letters (RA-L) with ICRA 2021 option.  -->
-
-<!-- *Preference-Based Learning for User-Guided HZD Gait Generation on Bipedal Walking Robots*, Maegan Tucker and Noel Csomay-Shanklin and Wen-Loong Ma and Aaron D. Ames, submitted to 2021 IEEE International Conference on Robotics and Automation (ICRA). -->
+*Learning Controller Gains on Bipedal Walking Robots via User Preferences*, Noel Csomay-Shanklin, Maegan Tucker, Min Dai, Jenna Reher, Aaron Ames, to appear at ICRA 2022. Available at: [arXiv: 2102.13201](https://arxiv.org/abs/2102.13201)
 
 <!-- *Coupled Control Systems: Periodic Orbit Generation with Application to Quadrupedal Locomotion*, Wen-Loong Ma,  Noel Csomay-Shanklin and Aaron D. Ames, submitted to L-CSS with CDC 2020 Option. Available at: [arXiv: 2003.08507](https://arxiv.org/abs/2003.08507). -->
 

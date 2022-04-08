@@ -9,7 +9,6 @@ category:   Projects
 ---
 
 * A geometric intuition of lagrange duality
-* Brouwer's fixed point theorem in all dimensions using homology functor
 * Why gold gets its color and relativistic effects of d orbitals
 * why defects are the most reactive and orbitals sticking out
 * The shape of the orbitals from the wave equation
@@ -37,3 +36,8 @@ category:   Projects
 * Beautiful work:
 	* Tai Bradley thesis
 	* Jenna reher review paper
+
+* Todo:
+	* Ivan Code
+	* C-MPC code
+	* Blog posts
