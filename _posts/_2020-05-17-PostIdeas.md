@@ -36,8 +36,3 @@ category:   Projects
 * Beautiful work:
 	* Tai Bradley thesis
 	* Jenna reher review paper
-
-* Todo:
-	* Ivan Code
-	* C-MPC code
-	* Blog posts

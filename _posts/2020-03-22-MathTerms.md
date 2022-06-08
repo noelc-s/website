@@ -9,6 +9,7 @@ category:   reading
 $\require{cancel}$
 A list of mathematical terms I have come across and needed to look up.
 ## Table of Contents
+{: .no_toc}
 * TOC
 {:toc}
 

@@ -8,6 +8,7 @@ subtitle:  	Mathematical Optimization
 category:   school
 ---
 ## Table of Contents
+{: .no_toc}
 * TOC
 {:toc}
 

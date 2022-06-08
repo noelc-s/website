@@ -7,7 +7,8 @@ tags: 		Baking Bread
 category:   baking
 ---
 The following post is a paraphrased version of chapter 10 in [1]
-## TOC
+## Table of Contents
+{: .no_toc}
 * TOC
 {:toc}
 

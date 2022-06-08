@@ -8,6 +8,7 @@ tags: 		Baking Bread Sourdough
 category:   baking
 ---
 ## Table of Contents
+{: .no_toc}
 * TOC
 {:toc}
 

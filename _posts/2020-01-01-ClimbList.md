@@ -12,6 +12,7 @@ category:   climbing
 * Buttermilks, CA
 * Echo Cliffs, CA
 * Fontainbleu, France
+* Holcomb Valley Pinnacles, CA
 * Joshua Tree, CA
 * Little Rock City (Stone Fort), TN
 * Los Angeles, CA
@@ -19,6 +20,7 @@ category:   climbing
   * Stoney Point
 * Owen's River Gorge, CA
 * Pine Creek, CA
+* Red Rock Canyon, NV
 * Rock Town, GA
 * San Diego, CA
   * El Cajon Mountain
@@ -36,6 +38,7 @@ category:   climbing
   * The Helix
   * Turtle Wall
 * Table Rock, NC
+* Tahquitz, CA
 * Yosemite, CA
   * Cathedral Peak
   * Toualumne Boulders
