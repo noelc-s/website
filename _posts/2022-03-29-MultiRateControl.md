@@ -10,7 +10,7 @@ category:   research
 [Link to full-length paper](https://arxiv.org/pdf/2204.00152.pdf)
 
 The following discussion is meant to be a more illustrative exposition of the methodology employed in the paper: [Multi-Rate Planning and Control of Uncertain Nonlinear Systems: 
-Model Predictive Control and Control Lyapunov Functions](https://arxiv.org/pdf/2204.00152.pdf)
+Model Predictive Control and Control Lyapunov Functions](https://arxiv.org/pdf/2204.00152.pdf), while answering some potential questions that may arise.
 
 ### Table of Contents
 {: .no_toc}
@@ -20,8 +20,8 @@ Model Predictive Control and Control Lyapunov Functions](https://arxiv.org/pdf/2
 ## Why pair Lyapunov with MPC?
 The short answer is that Lyapunov's method, for a certain class of systems, is able to provide robust invariants, and therefore provides a natural extension of tube MPC to for nonlinear control systems. The long answer requires starting with the motivation for robust linear MPC.
 
-## Robust Linear MPC
-Even before discussing robust MPC, we will start with an exposition of linear MPC.
+## Motivation
+Before getting into the weeds, we will motivate the use of robust linear MPC, which will start with a discussion of linear MPC.
 ### Linear MPC
 First consider the deterministic linear conrol system with discrete time dynamics \\[x_{k+1} = Ax_k + Bu_k\\] with $$x\in \mathbb{R}^n$$, $$u\in\mathbb{R}^m$$, $$A\in\mathbb{R}^{n\times n}$$, and $$B\in\mathbb{R}^{n\times m}$$. The standard MPC program can be written as:
 \\begin{align}
@@ -87,8 +87,32 @@ This paradigm of separating the feedback to a "low-level" controller, allowing t
 In general, producing robust invariants for nonlinear systems is challenging. For a certain class of systems though (namely, input to state stable systems), there are constructive techniques for generating robust invariants via Lyapunov level sets.
 
 ### Producing Robust Invariants for Input to State Stable Nonlinear Systems
+We now leave the world of linear systems, and enter the realm of nonlinear systems, i.e. systems governed by the disturbed dynamics:
+\\[
+\dot x = f(x) + g(x)u + w
+\\]
+for drift vector $$f:\mathbb{R}^n \to \mathbb{R}^n$$ and actuation matrix $$g:\mathbb{R}^n\to\mathbb{R}^{n\times m}$$. As detailed in the paper, if the above system is full state feedback linearizeable then there are constructive techniques for generating Input to State Stabilizing Control Lyapunov Functions (ISS-CLFs), or in other words, a (quadratic) function $$V:\mathbb{R}^n\to\mathbb{R}$$ which certifies the stability of the above system, even under disturbances $$w\in \mathcal{W}$$. The key with these ISS-CLFs is that there exists a level set of the function which can be rendered forward invariant, even under disturbances. Stated another way, there exists a constant $$c>0$$ which depends on the maximum magnitude of the disturbance experienced, whereby the sublevel set:
+\\[
+\Omega = \\{x\in\mathbb{R}^n | V(x) \le c\\}
+\\] 
+is forward invariant. As the function $$V$$ is quadratic, these level sets are generalized ellipsoids. Aha! Just as in the previous section, the application of feedback to the control system has granted us robust invariant sets that we can fold into the MPC program, allowing us to avoid planning policies over the disturbance set.
 
+## How do I plan trajectories for a continuous time system when MPC runs in discrete time?
+The answer lies in choosing an appropriate basis to plan points over in discrete time -- it just so happens that Bézier polynomials enjoy a number of desirable properties: 
+* Bézier polynomials are bounded by the convex hull of their control points
+* The derivatives of Bézier polynomials are again given by Bézier polynomials, whose control points are affine functions of the control points of the original polynomial
 
+These properties will allow for guarantees to be made in continuous time while only planning in discrete time, and efficient representation in an optimization program, respectively.
+
+## What model should be used in discrete time?
+Using the full-order nonlinear model in the MPC program would be nice, but we instead hold the perspective that efficient representation (i.e. linear system models, which lead to fast solve times) is more important. Usually, this would lead to model approximation error, which would be difficult to address generally -- this is where the beauty of full state feedback linearizeable systems comes in. Specifically, full-state feedback linearizeable systems can *exactly* track (carefully constructed) trajectories which are derived from the linearizations of the system dynamics. 
+
+### How to produce a dynamically admissible trajectory
+We term trajectories that are exactly trackable by the nonlinear system as *dynamically admissible* trajectories. The major remaining question is how to produce these trajectories. 
+
+To be continued... If you got this far and can't wait for me to finish the discussion then send me an email!
+
+## Why do we get SOCP constraints?
 
 
 
