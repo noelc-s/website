@@ -1,0 +1,44 @@
+I"[<h2 class="no_toc" id="table-of-contents">Table of Contents</h2>
+<ul id="markdown-toc">
+  <li><a href="#construction-of-son" id="markdown-toc-construction-of-son">Construction of \(SO(n)\)</a></li>
+  <li><a href="#if-we-just-care-about-son-why-go-through-the-effort-to-define-gln" id="markdown-toc-if-we-just-care-about-son-why-go-through-the-effort-to-define-gln">If we just care about \(SO(n)\), why go through the effort to define \(GL(n)?\)</a></li>
+</ul>
+
+<p>This exposition is distilled from a series of office visits to Victor Dorobantu, after which Lie Groups and Lie Aglebras made sense to me for the first time.</p>
+
+<h3 id="construction-of-son">Construction of \(SO(n)\)</h3>
+<p>Consider the set of invertible \(n\times n\) matrices as
+\[
+GL(n) = \{A\in\mathbb{R}^{n\times n} | \text{det}(A) \ne 0\}
+\]
+known as the general linear group (hence \(GL(n)\)). Now consider matrices \(A\in GL(n)\) such that \(A^\top A = \mathbf{I}_n\), and more specifically a function \(f:GL(n)\to\mathbb{R}^{n\times n}\) defined as:
+\[
+f(A) = A^\top A.
+\]</p>
+
+<p>Via the inverse function (???) theorem, we know that The zero-level set of a function defines a submanifold of the space. As such, consider the identity level set of our function \(f\), which defines the orthogonal group:
+\[
+O(n) = \{A\in\mathbb{R}^{n\times n} | A\in GL(n), A^\top A = \mathbf{I}_n\}
+\]</p>
+
+<h3 id="if-we-just-care-about-son-why-go-through-the-effort-to-define-gln">If we just care about \(SO(n)\), why go through the effort to define \(GL(n)?\)</h3>
+<p>With the goal of doing calculus on manifolds, we must be especially careful to understand what space the tangent vectors exist in. Specifically, we will consider perturbations of tangent vectors, but in doing so we have to ensure that the constructions that we make have a mathematical consistency, i.e. perturbations of our vectors do not exit the domain of definition of the objects we create.</p>
+
+<p>We can now think of what it means to take the differential of \(f\) at \(A\) in the direction of a tangent vector \(V\) as:
+\[
+[Df(A)](V) = \lim_{\varepsilon\to 0}\frac{(A+\varepsilon V)^\top(A+\varepsilon V) - A^\top A}{\varepsilon}
+\]</p>
+
+<p>As such, we know that tangent “vectors” \(V\) to \(SO(n)\) (these objects can naturally be though of as matrices) must satisfy the following equation:
+\[
+A^\top V + V^\top A = \mathbf{0}_{n\times n}
+\]
+as these are the directions in the null space of the differential of \(f\).</p>
+
+<p>If we want to associate a Lie Algebra to the Lie Group \(SO(n)\), then we need to consider the tangent space at identity. In other words,
+\[
+[Df(\mathbf{I}_n)](V) = 0 \iff V+V^\top = 0_{n\times n},
+\]
+or more canonically, the set of skew symmetric matrices. Why does this define a Lie Algebra? Well, the set of skew symmetric matrices is a vector space, and is closed under the Lie bracket operator as skew symmetric matrices commute.</p>
+
+:ET

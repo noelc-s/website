@@ -1,0 +1,107 @@
+I"B<h2 class="no_toc" id="table-of-contents">Table of Contents</h2>
+<ul id="markdown-toc">
+  <li><a href="#intro" id="markdown-toc-intro">Intro</a></li>
+  <li><a href="#deterministic-least-squares" id="markdown-toc-deterministic-least-squares">Deterministic Least Squares</a></li>
+  <li><a href="#scalar-stochastic-least-squares" id="markdown-toc-scalar-stochastic-least-squares">Scalar Stochastic Least Squares</a></li>
+  <li><a href="#vector-values-stochastic-least-squares" id="markdown-toc-vector-values-stochastic-least-squares">Vector Values Stochastic Least Squares</a></li>
+</ul>
+
+<h2 id="intro">Intro</h2>
+<p>Let us consider the problem of finding the least squares estimate of the following optimization problem
+\[
+\begin{equation}
+\begin{aligned}
+\min_{x} \quad &amp; \|y-Hx\|^2
+\end{aligned}
+\end{equation}
+\]</p>
+
+<h2 id="deterministic-least-squares">Deterministic Least Squares</h2>
+<p>Perhaps the most familiar approach to solving this is the calculus approach. Namely, we take the derivative with respect to $x$ and set it equal to zero
+\[
+\begin{align*}
+0 &amp;= \frac{\partial}{\partial x} \|y-H x\|^2 \\ 
+&amp;= \frac{\partial}{\partial x} x^*H^*Hx-x^*H^*y -  y^*Hx+y^*y \\ 
+&amp;= 2 H^*H\hat{x} - 2H^*y \\ 
+H^*H\hat{x}&amp;=H^*y
+\end{align*}
+\]</p>
+
+<p>The last equation in the above sequence is the well-known normal equation. The following discussion will try to arrive at the same solution from the geometric viewpoint.</p>
+
+<p>We will begin by letting $x\in\mathbb{C}^n$ and $y\in\mathbb{C}^N$. We start by interpreting the cost function of (1) as
+\[
+\|y-H \hat{x}\|^2 = \left\| y-\sum_{i=0}^{n-1}h_i\hat{x}(i)\right\|^2
+\]
+where $h_i$ are the columns of $H$. Almost tautologically, in order for $\hat{x}$ to be the minimizing solution there must be no variation of $\hat{x}(i)$ which could result in a lower cost. Stated another way, we have
+\[
+y-\sum_{i=0}^{n-1}h_i\hat{x}(i) \perp h_i,\qquad i=0,…,n-1,
+\]
+or, equivalently,
+\[
+h_i^*\left(y-\sum_{i=0}^{n-1}h_i\hat{x}(i)\right)=0,\qquad i=0,…,n-1
+\]
+which is identical to 
+\[
+H^*Hx=H^*y.
+\]
+Hence, the solution to the normal equations (the minimizing solution) can be viewed as the projection of $y$ onto the span of the columns of $H$.</p>
+
+<h2 id="scalar-stochastic-least-squares">Scalar Stochastic Least Squares</h2>
+<p>In this case, we consider the following problem
+\[
+\begin{equation}
+\begin{aligned}
+\min_{K} \quad &amp; \mathbb{E}\|x-Ky\|^2
+\end{aligned}
+\end{equation}
+\]
+where $x$ as a complex scalar zero-mean random variable, and $y$ as a complex vector-valued zero-mean random variable. Specifically, we have
+\[
+y=\begin{pmatrix}y_1\\ \vdots \\ y_N\end{pmatrix},\qquad x\in\mathbb{C}.
+\]
+Note the similarities and differences between (2) and (1) in our new stochastic setting. We assume $\hat{x}$ is a linear combination of the form
+\[
+\hat{x}=\sum_{i=0}^{N-1}\hat{k}_i y_i \equiv \hat{x}=\hat{K}y
+\]
+where each $\hat{k}_i$ is a deterministic scalar. We would like to minimize 
+\[
+P(\hat{K}) \triangleq E[x-\hat{x}][x-\hat{x}]^*,
+\]
+or stated another way, find a $\hat{K}$ such that for any $K\ne\hat{K}$ and any scalar $a$, $aP({K})a&gt;aP(\hat{K})a$. Similar to before, perhaps the most employed method to solving the above problem is to differentiate and set equal to zero
+\[
+\begin{align*}
+0&amp;=\frac{\partial }{\partial aK} aP({K})a \\ 
+&amp;= \frac{\partial }{\partial aK} aE[x-\hat{x}][x-\hat{x}]^*a  \\ 
+&amp;=\frac{\partial }{\partial aK} a[R_x -R_{xy} K^* -K R_{yx}+K R_y K^*]^*a \\ 
+&amp;=-R_{xy} + \hat{K} R_y \\ 
+\implies R_{xy}  &amp;= \hat{K} R_y,
+\end{align*}
+\]
+resulting in the well known normal equations in our new stochastic setting. For a geometric interpretation, we can regard the individual elements $y_1,…y_N,x$ as being vectors in some abstract vector space, with the deterministic $k_i$ as being scalar values. With this perspective, we have morphed our stochastic least squares problem into something that mirrors the more familiar deterministic setting. In order to proceed as before and perform the same projection that we did in the deterministic least squares problem, we need to define a valid inner product. We propose $\langle A,B \rangle = \mathbb{E}(AB^*)$ for abstract vectors $A$ and $B$. This inner product can be verified to satisfy the required axioms. We can now proceed exactly as we did with the deterministic case, i.e. the minimizing $K$ is one which satisfies
+\[
+\begin{align*}
+x-\hat{K} y \perp y_i,&amp;\qquad i=0,…,N-1 \\ 
+\langle x,y_i\rangle = \hat{K} \langle y,y_i\rangle ,&amp;\qquad i=0,…,N-1 \\ 
+\langle x,y\rangle &amp;= \hat{K} \langle y,y\rangle \\ 
+ \mathbb{E}[xy^*] &amp;= \hat{K} \mathbb{E}[yy^*] \\ 
+R_{xy}  &amp;= \hat{K} R_y
+\end{align*} 
+\]
+Similar to before, we view this equation as the “projection” of $x$ onto the “span of the column space” of y.</p>
+<h2 id="vector-values-stochastic-least-squares">Vector Values Stochastic Least Squares</h2>
+<p>In order to do the vector valued case, we need a piece of mathematical machinery that is more general than an inner product space – a module. In the previous two examples, we employed the idea of a vector space over the field of the reals. This can be observed from the fact that our inner product mapped vectors to scalars. For the vector-valued stochastic least squares problem, we will need to utilize the idea of a module, which extends the idea of vector spaces from fields to rings. We start by considering the module over the ring of $n\times n$ matrices, which are themselves a matrix ring over the ring of the complex numbers (which admit the even stronger field structure).</p>
+
+<p>We can then define an inner product exactly the same as before, i.e. $\langle A,B \rangle = \mathbb{E}(AB^*)$, which results in a (covariance) matrix for arbitrary elements $A$ and $B$ of our defined module. Again, this proposed inner product can be verified to satisfy the required axioms in the new setting of modules. Here is where this construction truly shines: defined in this way, all the prior developments in more canonical vector spaces hold in this abstract setting. To show this, consider $x\in\mathbb{C}^n, y\in\mathbb{C}^N$ as complex vector-values zero-mean random variables. Then, just as before, the optimal $K$ must satisfy the following
+\[
+\begin{align*}
+x_j-\hat{K} y_j \perp y_i,&amp;\qquad j=0,…,n-1;\qquad i=0,…,N-1 \\ 
+\langle x_j,y_i\rangle = \hat{K} \langle y_j,y_i\rangle ,&amp;\qquad j=0,…,n-1;\qquad i=0,…,N-1 \\ 
+\langle x,y\rangle &amp;= \hat{K} \langle y,y\rangle \\ 
+ \mathbb{E}[xy^*] &amp;= \hat{K} \mathbb{E}[yy^*] \\ 
+R_{xy}  &amp;= \hat{K} R_y
+\end{align*} 
+\]
+  and we again retrieve $R_{xy}  = \hat{K} R_y$ where everything is in the form of matrices.</p>
+
+:ET

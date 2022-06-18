@@ -12,7 +12,8 @@ category:   reading
 * TOC
 {:toc} -->
 
-When taking a nonlinear, continuous time model and going to a linear, discrete time one (for example, when doing MPC), there are often questions about whether to linearize and then discretize, or discretize and then linearize, and up to what order. 
+When taking a nonlinear, continuous time model and going to a linear, discrete time one (for example, when doing MPC), there are often questions about whether to linearize and then discretize, or discretize and then linearize, and up to what order. In other words, it is a question of whether or not the following diagram commutes:
+<img class="center" width="65%" style="margin-top:20px;margin-bottom:20px" src="{{ site.baseurl }}/img/MultiRateControl/DiscLinCommute.png">
 
 <!-- ### One Step Euler and First Order Taylor -->
 Start by considering a nonlinear continuous time model as:

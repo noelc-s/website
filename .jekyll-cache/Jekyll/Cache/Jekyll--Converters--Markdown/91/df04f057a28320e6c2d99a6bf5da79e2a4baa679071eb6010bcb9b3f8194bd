@@ -1,0 +1,37 @@
+I"�<p>Much of this discussion was based on the text “Geometric Control of Mechanical Systems” by Francesco Bullo and Andrew D.Lewis. A more formal development of the following ideas can be found in that text, this is simply meant to be a page of informal notes.</p>
+
+<h2 class="no_toc" id="table-of-contents">Table of Contents</h2>
+<ul id="markdown-toc">
+  <li><a href="#equivalence-classes" id="markdown-toc-equivalence-classes">Equivalence Classes</a></li>
+  <li><a href="#tangent-bundles" id="markdown-toc-tangent-bundles">Tangent Bundles</a></li>
+  <li><a href="#nontrivial-vector-bundle" id="markdown-toc-nontrivial-vector-bundle">Nontrivial Vector Bundle</a></li>
+</ul>
+
+<h2 id="equivalence-classes">Equivalence Classes</h2>
+<p>Consider the equivalence class $\mathcal{R}\equiv\mathbb{Z}$. Then $\mathbb{R}/\mathbb{Z}$ can be visualized as <img src="https://noelc-s.github.io/website/img/DiffGeo1/DiffGeo1a1.svg?sanitize=true" alt="Alt text" />
+Consider $\mathbb{S}^1$ as the unit circle in the complex plane. Next, consider the surjective function $\varphi:\mathbb{R}\to\mathbb{S}^1$ as $\varphi(x) = e^{2\pi ix}$. Note that $\varphi$ is a <a href="http://mathworld.wolfram.com/GroupHomomorphism.html">Group Homomorphism</a>, and that $Ker(\varphi)=\mathbb{Z}$. Therefore, under the <a href="https://en.wikipedia.org/wiki/Isomorphism_theorems#First_isomorphism_theorem">first group isomorphism theorem</a>, we have that $\mathbb{R}/\mathbb{Z}\cong\mathbb{S}^1$. Imprecisely, this can be visualized in the following way 
+<img src="https://noelc-s.github.io/website/img/DiffGeo1/DiffGeo1a2.svg?sanitize=true" alt="Alt text" />
+<img src="https://noelc-s.github.io/website/img/DiffGeo1/DiffGeo1a3.svg?sanitize=true" alt="Alt text" />
+<img src="https://noelc-s.github.io/website/img/DiffGeo1/DiffGeo1a4.svg?sanitize=true" alt="Alt text" /></p>
+
+<h2 id="tangent-bundles">Tangent Bundles</h2>
+<p>Consider the curve $\gamma:I\to M$, with $\gamma’(x)$ representing the derivative of $\gamma$ in an appropriate chart at the point $x$. The tangent fiber at a point x is the set of all curves $\gamma$ that have the same derivative at $x$, denoted by $T_x M$. The tangent bundle $TM = \sqcup_{x\in M}T_x M$, or the disjoint union of the tangent fibers as seen in 
+<img src="https://noelc-s.github.io/website/img/DiffGeo1/DiffGeo1TangentBundle.svg?sanitize=true" alt="Alt text" /></p>
+
+<p>A section of the tangent bundle $\xi\in\Gamma(M)$ provides a vector field on $M$.
+<img src="https://noelc-s.github.io/website/img/DiffGeo1/DiffGeo1TangentBundleSection1.svg?sanitize=true" alt="Alt text" />
+<img src="https://noelc-s.github.io/website/img/DiffGeo1/DiffGeo1TangentBundleSection2.svg?sanitize=true" alt="Alt text" /></p>
+<div align="center"><script src="https://embed.github.com/view/3d/noelc-s/website/gh-pages/stl/3DPlot.stl"></script></div>
+
+<h2 id="nontrivial-vector-bundle">Nontrivial Vector Bundle</h2>
+<p>Let $M=[0,1]\subset\mathbb{R}$ be an embedded submanifold. For the proceeding discussion, let $\pi:V\to M$ be the projection mapping from the vector bundle $V$ to the base manifold. Now consider the equivalence relation $\mathcal{R}_1=\{((0,y),(1,y)):y\in\mathbb{R}\}$, as visualized by
+<img src="https://noelc-s.github.io/website/img/DiffGeo1/R1.svg?sanitize=true" alt="Alt text" />
+The vector bundle $V_1=M\times \mathbb{R}/~$ is isomorphic to $TM$ because of the parallelizable nature of $M$, and is a cylinder as seen in<br />
+<img src="https://noelc-s.github.io/website/img/DiffGeo1/DiffGeo1Cylinder.svg?sanitize=true" alt="Alt text" />
+If instead we consider the equivalence class $\mathcal{R}_2=\{((0,y),(1,-y)):y\in\mathbb{R}\}$
+<img src="https://noelc-s.github.io/website/img/DiffGeo1/R2.svg?sanitize=true" alt="Alt text" />
+the vector bundle $V_2=M\times\mathbb{R}/\sim$ is the infinite Möbius band, as seen in
+<img src="https://noelc-s.github.io/website/img/DiffGeo1/DiffGeo1Mobius.svg?sanitize=true" alt="Alt text" />
+Note that $\pi(V_i)\cong\mathbb{S}^1$ for $i=\{1,2\}$.</p>
+
+:ET

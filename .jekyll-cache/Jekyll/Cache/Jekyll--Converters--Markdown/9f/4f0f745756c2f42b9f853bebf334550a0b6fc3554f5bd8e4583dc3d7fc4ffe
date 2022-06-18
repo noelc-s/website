@@ -1,0 +1,128 @@
+I"K7<p><a href="https://arxiv.org/pdf/2204.00152.pdf">Link to full-length paper</a></p>
+
+<p>The following discussion is meant to be a more illustrative exposition of the methodology employed in the paper: <a href="https://arxiv.org/pdf/2204.00152.pdf">Multi-Rate Planning and Control of Uncertain Nonlinear Systems: 
+Model Predictive Control and Control Lyapunov Functions</a>, while answering some potential questions that may arise.</p>
+
+<h3 class="no_toc" id="table-of-contents">Table of Contents</h3>
+<ul id="markdown-toc">
+  <li><a href="#why-pair-lyapunov-with-mpc" id="markdown-toc-why-pair-lyapunov-with-mpc">Why pair Lyapunov with MPC?</a></li>
+  <li><a href="#motivation" id="markdown-toc-motivation">Motivation</a>    <ul>
+      <li><a href="#linear-mpc" id="markdown-toc-linear-mpc">Linear MPC</a></li>
+      <li><a href="#robust-linear-mpc" id="markdown-toc-robust-linear-mpc">Robust Linear MPC</a></li>
+    </ul>
+  </li>
+  <li><a href="#how-does-lyapunov-fit-into-the-picture" id="markdown-toc-how-does-lyapunov-fit-into-the-picture">How does Lyapunov fit into the picture?</a>    <ul>
+      <li><a href="#producing-robust-invariants-for-input-to-state-stable-nonlinear-systems" id="markdown-toc-producing-robust-invariants-for-input-to-state-stable-nonlinear-systems">Producing Robust Invariants for Input to State Stable Nonlinear Systems</a></li>
+    </ul>
+  </li>
+  <li><a href="#how-do-i-plan-trajectories-for-a-continuous-time-system-when-mpc-runs-in-discrete-time" id="markdown-toc-how-do-i-plan-trajectories-for-a-continuous-time-system-when-mpc-runs-in-discrete-time">How do I plan trajectories for a continuous time system when MPC runs in discrete time?</a></li>
+  <li><a href="#what-model-should-be-used-in-discrete-time" id="markdown-toc-what-model-should-be-used-in-discrete-time">What model should be used in discrete time?</a>    <ul>
+      <li><a href="#how-to-produce-a-dynamically-admissible-trajectory" id="markdown-toc-how-to-produce-a-dynamically-admissible-trajectory">How to produce a dynamically admissible trajectory</a></li>
+    </ul>
+  </li>
+  <li><a href="#why-do-we-get-socp-constraints" id="markdown-toc-why-do-we-get-socp-constraints">Why do we get SOCP constraints?</a></li>
+</ul>
+
+<h2 id="why-pair-lyapunov-with-mpc">Why pair Lyapunov with MPC?</h2>
+<p>The short answer is that Lyapunov’s method, for a certain class of systems, is able to provide robust invariants, and therefore provides a natural extension of tube MPC to for nonlinear control systems. The long answer requires starting with the motivation for robust linear MPC.</p>
+
+<h2 id="motivation">Motivation</h2>
+<p>Before getting into the weeds, we will motivate the use of robust linear MPC, which will start with a discussion of linear MPC.</p>
+<h3 id="linear-mpc">Linear MPC</h3>
+<p>First consider the deterministic linear conrol system with discrete time dynamics \[x_{k+1} = Ax_k + Bu_k\] with \(x\in \mathbb{R}^n\), \(u\in\mathbb{R}^m\), \(A\in\mathbb{R}^{n\times n}\), and \(B\in\mathbb{R}^{n\times m}\). The standard MPC program can be written as:
+\begin{align}
+    u^* =  \,\,\underset{u \in \mathbb{R}^m}{\text{argmin}}  &amp;  \quad \sum_{k=0}^{N-1} x_k^\top Q x_k + u_k^\top R u_k + x_N^\top V x_N \notag\\ \notag
+    \mathrm{s.t.} \quad &amp; \quad x_{k+1} = Ax_k + Bu_k \\ \notag
+    &amp;\quad x_0 =x(0) \\ \notag
+    &amp;\quad x_k \in \mathcal{X}\\ \notag
+    &amp;\quad u_k \in \mathcal{U}\\ \notag
+    &amp;\quad x_N \in \mathcal{X}_F, \nonumber
+\end{align}
+for \(Q\in\mathbb{R}^{n\times n}\), \(R\in\mathbb{R}^{m\times m}\) state and input weights, \(V\in\mathbb{R}^{n\times n}\) terminal cost, \(\mathcal{X}\subset \mathbb{R}^n\), \(\mathcal{U}\subset\mathbb{R}^m\), state and input constraints, and respectively, and \(\mathcal{X}_F\subset\mathbb{R}^n\) the terminal constraint set. For the sake of simplicity, we will start by assuming that the terminal constraint set is given by a point, i.e. \(x_e = \mathcal{X}_F\), which is a control invariant with control input \(u=0\). 
+<!-- /*<img class="center"  style="margin-top:20px;margin-bottom:20px" src="/website/img/MultiRateControl/MPC_1.svg?sanitize=true">*/ -->
+Solving this optimization problem at time $t=0$ results in the optimal solutions:
+\begin{align}
+x^* &amp;= \{x^*_{0|0},\ldots,x_e\}\notag \\<br />
+u^* &amp;= \{u^*_{0|0},\ldots,u^*_{N-1|0}\}, \notag
+\end{align}
+ where \(x_{k|t}\) represents the \(k^{th}\) state decision variable as planned at time index $t$, as depicted by:
+<img class="center" style="margin-top:20px;margin-bottom:20px" src="/website/img/MultiRateControl/MPC_2.svg?sanitize=true" />
+Consider the application of the open loop control action \(u^*_0\) at time step \(t=0\), resulting in the following system update:
+<img class="center" style="margin-top:20px;margin-bottom:20px" src="/website/img/MultiRateControl/MPC_3.svg?sanitize=true" />
+Of paramount importance with MPC is the notion of <em>recursive feasibility</em>, i.e. ensuring that if the program is feasible at instantiation, that it continues to be feasible at all times in the future. In the above diagram, it is clear to see that the following state and action pairs:
+\begin{align}
+x^* &amp;= \{x^*_{1|0},\ldots,x_e, x_e\}\notag \\<br />
+u^* &amp;= \{u^*_{1|0},\ldots,u^*_{N-1|0}, 0\}, \notag
+\end{align}
+are feasible at time step \(t=1\) (again, assuming that \(x_e\), the terminal constraint set is a control invariant with control input \(u=0\). In general this idea can be extended to terminal constraints of arbitrary [polytopic, or more generally, convex] terminal constraints \(\mathcal{X}_F\)). To see this, consider the set \(\mathcal{X}_F\), a control invariant under the policy \(\pi:\mathbb{R}^n\to\mathbb{R}^m\). In the recursive feasability step, we can replace the state action pairs with:
+\begin{align}
+x^* &amp;= \{x^*_{1|0},\ldots,x_{N|0}, Ax_{N|0} + B\pi(x_{N|0})\}\notag \\<br />
+u^* &amp;= \{u^*_{1|0},\ldots,u^*_{N-1|0}, \pi(x_{N|0})\}, \notag
+\end{align}</p>
+
+<h3 id="robust-linear-mpc">Robust Linear MPC</h3>
+<p>This is all fine and dandy, but now consider the uncertain system dynamics of \[x_{k+1} = Ax_k + Bu_k + w\] for \(w\in\mathcal{W}\subset\mathbb{R}^n\). In this setting, two things are lost:</p>
+<ul>
+  <li>It may be that the system state exits the state constraint set</li>
+  <li>We no longer have a guarantee of recursive feasibility</li>
+</ul>
+
+<p>In order to remedy these issues, we have a few options. The first option is to plan policies over the disturbance set (more details can be found in <a href="https://ieeexplore.ieee.org/abstract/document/704989">this paper</a>). It is not clear how to do this for general systems, but for linear systems with polytopic disturbance sets \(\mathcal{W}\), this can be achieved via an optimization program that is NP-hard to solve. Another option, which will naturally extend to nonlinear systems, is to use a <em>feedback</em> controller in tandem with MPC.</p>
+
+<p>We start by defining a feedback policy \(K\in\mathbb{R}^{m\times n}\) which renders the closed loop system \(A_{\textrm{cl}} = A+BK\) stable. We can then generate a robust invariant \(\mathcal{E}\), i.e. a set such that for all elements \(x^-\in\mathcal{E}\), there exists an input \(u\) such that the point \(x^+ = Ax^-+Bu + w \in \mathcal{E}\) for all \(w\in\mathcal{W}\). The process of producing such a robust invariant for linear systems is depicted below, with more details in <a href="https://www.hindawi.com/journals/mpe/1998/934097/">this paper</a>.
+<img class="center" width="80%" style="margin-top:20px;margin-bottom:20px" src="/website/img/MultiRateControl/RobustInvariant.svg?sanitize=true" />
+The notation \(\oplus\) is the Minkowski sum of two sets, i.e. given two sets \(A\) and \(B\), \(A\oplus B = \{a+b|a\in A, b\in B\}\), and \(\ominus\) is the Minkowski difference of two sets, i.e. if \(C=A\oplus B\) then \(A=C\ominus B\).
+Although this set is not guaranteed to be polytopic, a polytopic outer approximation can readily be generated. Now, consider the following robust MPC program:
+\begin{align}
+    (x,u)^* =  \,\,\underset{x,u}{\text{argmin}}  &amp;  \quad \sum_{k=0}^{N-1} x_k^\top Q x_k + u_k^\top R u_k + x_N^\top V x_N \notag\\ \notag
+    \mathrm{s.t.} \quad &amp; \quad x_{k+1} = Ax_k + Bu_k \\ \notag
+    &amp;\quad x_0 =x(0) \\ \notag
+    &amp;\quad x_k \in \mathcal{X}\ominus \mathcal{E}\\ \notag
+    &amp;\quad u_k \in \mathcal{U}\ominus K\mathcal{E}\\ \notag
+    &amp;\quad x_N \in \mathcal{X}_F, \nonumber
+\end{align}
+where it must be verified that \(\mathcal{X}\ominus \mathcal{E}\) and \(U\ominus K\mathcal{E}\) are not empty, and that \(\mathcal{X}_F\subset\mathcal{X}\ominus\mathcal{E}\). From the solutions \((x,u)^*\), the control input to the system can be constructed as: \[\pi(x) = K(x-x^*_{0|0})+u^*_{0|0}.\]
+This formulation grants us a number of benefits. First, it resolves the two aforementioned challenges, i.e. the states (and inputs) will remain in the constraint sets, and recursive feasibility can be guaranteed. To see this, consider the optimal sequence of states at time step \(t=0\):
+<img class="center" style="margin-top:20px;margin-bottom:20px" src="/website/img/MultiRateControl/T_MPC_1.svg?sanitize=true" />
+Then, once the policy is applied, we can simply use the same sequence of states and inputs that were used in the previous section (depending on if the terminal set is an unforced equilibrium point, or more generally a control invariant), which are feasible at the next time step:
+<img class="center" style="margin-top:20px;margin-bottom:20px" src="/website/img/MultiRateControl/T_MPC_2.svg?sanitize=true" />
+Additionally, this formulation does all of this while avoiding having to solve an NP-hard problem.</p>
+
+<p>This paradigm of separating the feedback to a “low-level” controller, allowing the MPC program to plan over the disturbance free system is the same idea as employed in the paper, which extends this concept to nonlinear systems: 
+<img class="center" width="60%" style="margin-top:20px;margin-bottom:20px" src="/website/img/MultiRateControl/MultiRateOverview.png" /></p>
+
+<h2 id="how-does-lyapunov-fit-into-the-picture">How does Lyapunov fit into the picture?</h2>
+<p>In general, producing robust invariants for nonlinear systems is challenging. For a certain class of systems though (namely, input to state stable systems), there are constructive techniques for generating robust invariants via Lyapunov level sets.</p>
+
+<h3 id="producing-robust-invariants-for-input-to-state-stable-nonlinear-systems">Producing Robust Invariants for Input to State Stable Nonlinear Systems</h3>
+<p>We now leave the world of linear systems, and enter the realm of nonlinear systems, i.e. systems governed by the disturbed dynamics:
+\[
+\dot x = f(x) + g(x)u + w
+\]
+for drift vector \(f:\mathbb{R}^n \to \mathbb{R}^n\) and actuation matrix \(g:\mathbb{R}^n\to\mathbb{R}^{n\times m}\). As detailed in the paper, if the above system is full state feedback linearizeable then there are constructive techniques for generating Input to State Stabilizing Control Lyapunov Functions (ISS-CLFs), or in other words, a (quadratic) function \(V:\mathbb{R}^n\to\mathbb{R}\) which certifies the stability of the above system, even under disturbances \(w\in \mathcal{W}\). The key with these ISS-CLFs is that there exists a level set of the function which can be rendered forward invariant, even under disturbances. Stated another way, there exists a constant \(c&gt;0\) which depends on the maximum magnitude of the disturbance experienced, whereby the sublevel set:
+\[
+\Omega = \{x\in\mathbb{R}^n | V(x) \le c\}
+\] 
+is forward invariant. As the function \(V\) is quadratic, these level sets are generalized ellipsoids. Aha! Just as in the previous section, the application of feedback to the control system has granted us robust invariant sets that we can fold into the MPC program, allowing us to avoid planning policies over the disturbance set.</p>
+
+<h2 id="how-do-i-plan-trajectories-for-a-continuous-time-system-when-mpc-runs-in-discrete-time">How do I plan trajectories for a continuous time system when MPC runs in discrete time?</h2>
+<p>The answer lies in choosing an appropriate basis to plan points over in discrete time – it just so happens that Bézier polynomials enjoy a number of desirable properties:</p>
+<ul>
+  <li>Bézier polynomials are bounded by the convex hull of their control points</li>
+  <li>The derivatives of Bézier polynomials are again given by Bézier polynomials, whose control points are affine functions of the control points of the original polynomial</li>
+</ul>
+
+<p>These properties will allow for guarantees to be made in continuous time while only planning in discrete time, and efficient representation in an optimization program, respectively.</p>
+
+<h2 id="what-model-should-be-used-in-discrete-time">What model should be used in discrete time?</h2>
+<p>Using the full-order nonlinear model in the MPC program would be nice, but we instead hold the perspective that efficient representation (i.e. linear system models, which lead to fast solve times) is more important. Usually, this would lead to model approximation error, which would be difficult to address generally – this is where the beauty of full state feedback linearizeable systems comes in. Specifically, full-state feedback linearizeable systems can <em>exactly</em> track (carefully constructed) trajectories which are derived from the linearizations of the system dynamics.</p>
+
+<h3 id="how-to-produce-a-dynamically-admissible-trajectory">How to produce a dynamically admissible trajectory</h3>
+<p>We term trajectories that are exactly trackable by the nonlinear system as <em>dynamically admissible</em> trajectories. The major remaining question is how to produce these trajectories.</p>
+
+<p>To be continued… If you got this far and can’t wait for me to finish the discussion then send me an email!</p>
+
+<h2 id="why-do-we-get-socp-constraints">Why do we get SOCP constraints?</h2>
+
+<!-- <iframe style="width:100%" height="1000px" src="https://noelc-s.github.io/website/img/CDC_2022____Multi_Rate_MPC_Long.pdf" frameborder="0" allowfullscreen></iframe> -->
+:ET
