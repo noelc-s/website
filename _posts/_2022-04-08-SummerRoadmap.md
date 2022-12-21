@@ -28,6 +28,7 @@ category:   reading
 * For C-MPC, can the acceleration of curves be related to the inputs? Can this be added as a constraint as well (likely nonlinear). Can I think about the projection of this onto a Bezier basis, and reason that minimizing bezier acceleration minimizes system acceleration and preserves variational principles?
 * Can MPC plan through loss of relative degree? This surely won't work in a multi-rate framework though. Unless you use sampled-data?
 * Why is it computationally better to avoid the forward dynamics integration and instead do FL with nonlinear input constraints? i.e. why is the reformulation we used with Manuel (or that Primbs used) any better?
+* Understand reduced order model better (kino-dynamic, centroidal, potato, SRB, etc.)
 ### MPC as a Policy Planner
 * What mechnaism allows shrinking tube MPC to become fixed tube MPC when disturbance policies are planned over? 
 * Are there good approximations to mitigate the fact that this is an NP hard problem?

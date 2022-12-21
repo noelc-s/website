@@ -15,15 +15,15 @@ category:   Projects
 * Group theory and crystallography
 * Boost up the Lie Theory page with some group theory
 * Make the math terms page a page of examples instead of copying wikipedia
-* Robust MPC (RSRG slides)
+* Add shrinking tube to fixed tube robust MPC
 * Poincare Duality, dual topological structures
 * Beautiful Work: Jenna, Tai Bradley, crane
 * memes
 * Why save money in grad school: Don't
-* Safety and Stability
+* Safety
 * Nonlinear Controllability and an Intuitive Explanation of Frobenius Theorem
 * Euler discretization preserves controllability, (lin then disc)
-* Euler discretization and first order taylor approximation commute!
+* Every paper I've written
 
 * Inspirational Blogs:
 	* https://vipulnaik.com/blog/
