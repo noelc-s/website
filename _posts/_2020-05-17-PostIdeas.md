@@ -17,7 +17,6 @@ category:   Projects
 * Make the math terms page a page of examples instead of copying wikipedia
 * Add shrinking tube to fixed tube robust MPC
 * Poincare Duality, dual topological structures
-* Beautiful Work: Jenna, Tai Bradley, crane
 * memes
 * Why save money in grad school: Don't
 * Safety
@@ -36,3 +35,4 @@ category:   Projects
 * Beautiful work:
 	* Tai Bradley thesis
 	* Jenna reher review paper
+	* Literally anything that Keenan Crane does
