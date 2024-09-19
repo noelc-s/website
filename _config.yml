@@ -3,6 +3,7 @@ title: "Noel Csomay-Shanklin"
 default_header: ""
 description: "A collection of things I would like to remember"
 url: "https://noelc-s.github.io"
+future: true
 
 # Secondary Parameters
 baseurl: "/website"
