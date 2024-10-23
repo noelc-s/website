@@ -42,6 +42,20 @@ img.rotate_image {
   clear: both;
   display: table;
 }
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+  .image, .text {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+  .image img {
+    width: 80%; /* Optional: Adjust image size for smaller screens */
+    margin: auto;
+  }
+}
+
 </style>
 </head>
 <body>
