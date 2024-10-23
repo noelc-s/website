@@ -1,0 +1,36 @@
+---
+display_to_feed: false
+layout:     post
+title:      "Multi-Rate Planning and Control of Uncertain Nonlinear Systems: Model Predictive Control and Control Lyapunov Functions"
+author:     Noel Csomay-Shanklin
+tags: 		  Research
+category:   research
+---
+
+## Overview
+A planner-tracker framework with guarantees.
+
+## Abstract
+Modern control systems must operate in increasingly
+complex environments subject to safety constraints and input
+limits, and are often implemented in a hierarchical fashion with
+different controllers running at multiple time scales. Yet tra-
+ditional constructive methods for nonlinear controller synthesis
+typically “flatten” this hierarchy, focusing on a single time scale,
+and thereby limited the ability to make rigorous guarantees on
+constraint satisfaction that hold for the entire system. In this
+work we seek to address the stabilization of constrained nonlinear
+systems through a multi-rate control architecture. This is accom-
+plished by iteratively planning continuous reference trajectories
+for a nonlinear system using a linearized model and Model
+Predictive Control (MPC), and tracking said trajectories using
+the full-order nonlinear model and Control Lyapunov Functions
+(CLFs). Connecting these two levels of control design in a way
+that ensures constraint satisfaction is achieved through the use
+of Bézier curves, which enable planning continuous trajectories
+respecting constraints by planning a sequence of discrete points.
+Our framework is encoded via convex optimization problems
+which may be efficiently solved, as demonstrated in simulation.
+
+## Paper
+<iframe style="width:100%" height="1000px" src="https://noelc-s.github.io/website/papers/MPCCLF.pdf" frameborder="0" allowfullscreen></iframe>

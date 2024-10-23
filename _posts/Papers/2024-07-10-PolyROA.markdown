@@ -1,0 +1,17 @@
+---
+display_to_feed: false
+layout:     post
+title:      "Approximating Regions of Attraction via Flow-Control Barrier Functions and Constrained Polytope Expansion"
+author:     Noel Csomay-Shanklin
+tags: 		  Research
+category:   research
+---
+
+## Overview
+Approximating regions of attraction with an inflating polytope.
+
+## Abstract
+Regions of attraction are a fundamental and extensively researched concept in control theory—their accurate characterization is essential to establishing the robustness of equilibria to perturbations since they quantify the set of initial conditions that converge to a given stable equilibrium point. They are of special interest for nonlinear dynamical systems, as they often lack analytical solutions and therefore require the use of numerical methods to obtain useful approximations. In this paper, we leverage recent results in control barrier function theory to propose a novel method to approximate regions of attraction about stable fixed points. First, we establish connections between the region of attraction and the idea of an “explicit region of attraction” for dynamical systems. This motivates an extension of control barrier functions termed flow-control barrier functions (ϕ−CBF) , and we introduce the idea of an “auxiliary dynamical system” connected to a target system via a ϕ−CBF . We construct a time-varying polytope governed by expansion dynamics, but bounded to lie within the desired region of attraction. The main result establishes that as the number of polytope vertices increases, this polytope approximates the region of attraction with arbitrary accuracy. We illustrate our method through various compelling examples.
+
+## Paper
+<iframe style="width:100%" height="1000px" src="https://noelc-s.github.io/website/papers/HopperMPC.pdf" frameborder="0" allowfullscreen></iframe>

@@ -1,0 +1,17 @@
+---
+display_to_feed: false
+layout:     post
+title:      "Layered Control Systems Operating on Multiple Clocks"
+author:     Noel Csomay-Shanklin
+tags: 		  Research
+category:   research
+---
+
+## Overview
+Creating a formal logic for verifying systems operating on different clocks.
+
+## Abstract
+Autonomous systems typically leverage layered control architectures, created by interconnecting components that operate at multiple timescales, i.e., evolve under various clocks. To formalize this typically heuristic procedure, we introduce a new logic, Multiclock Logic (MCL), that can express the requirements of components from the point of view of their local clocks, promoting independent design and component reuse. We then use assume-guarantee contracts expressed in MCL to prove global stability properties of a system using the stability properties of its components. In particular, we consider the classic layered architecture consisting of model predictive control (MPC) layered on top of feedback linearization, and prove overall stability of the systems.
+
+## Paper
+<iframe style="width:100%" height="1000px" src="https://noelc-s.github.io/website/papers/HopperMPC.pdf" frameborder="0" allowfullscreen></iframe>
