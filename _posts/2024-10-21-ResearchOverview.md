@@ -262,6 +262,7 @@ img.rotate_image {
     <a href="https://www.youtube.com/watch?v=8TeXd0AYtpA">Video</a><a href="https://arxiv.org/pdf/2204.08120">Paper</a> <a href="{{ site.baseurl }}/research/2022/04/18/NeuralGaits/" >Blog</a>
   </div></div>
 </div>
+<hr>
 <div class="row">
   <div class="image">
     <img class="rounded-corners" src="/website/img/ResearchFigs/BranchMPC.png" alt="Snow" style="width:100%">
@@ -272,5 +273,168 @@ img.rotate_image {
     <p style="margin:15px"><i>RA-L 2022</i></p>
   <div style="vertical-align:middle" class="notepad-index-post-tags" style="text-align:center">
     <a href="https://youtu.be/W3jzoMjAZsQ?si=hGUhJL75OxX14dFY">Video</a><a href="https://arxiv.org/pdf/2109.05128">Paper</a> <a href="{{ site.baseurl }}/research/2022/03/07/BranchMPC/" >Blog</a>
+  </div></div>
+</div>
+<hr>
+<h2>2021</h2>
+<hr>
+<div class="row">
+  <div class="image">
+    <img class="rounded-corners" src="/website/img/ResearchFigs/LearningParams.png" alt="Snow" style="width:100%">
+  </div>
+  <div class="text">
+    <b>Online Learning of Unknown Dynamics for Model-Based Controllers in Legged Locomotion</b>
+    <p style="margin:15px">
+Yu Sun, Wyatt L. Ubellacker, Wen-Loong Ma, Xiang Zhang, Changhao Wang, <b>Noel Csomay-Shanklin</b>, Masayoshi Tomizuka, Koushil Sreenath, and Aaron D. Ames</p>
+    <p style="margin:15px"><i>RA-L 2021</i></p>
+  <div style="vertical-align:middle" class="notepad-index-post-tags" style="text-align:center">
+    <a href="https://youtu.be/Je_2Y-FQpKw">Video</a><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9525285">Paper</a> <a href="{{ site.baseurl }}/research/2021/11/04/LearningQuad/" >Blog</a>
+  </div></div>
+</div>
+<hr>
+<div class="row">
+  <div class="image">
+    <img class="rounded-corners" src="/website/img/ResearchFigs/Transition.png" alt="Snow" style="width:100%">
+  </div>
+  <div class="text">
+    <b>Verifying Safe Transitions between Dynamic Motion Primitives on Legged Robots</b>
+    <p style="margin:15px">Wyatt L. Ubellacker, <b>Noel Csomay-Shanklin</b>, Tamas G. Molnar, and Aaron D. Ames</p>
+    <p style="margin:15px"><i>IROS 2021</i></p>
+  <div style="vertical-align:middle" class="notepad-index-post-tags" style="text-align:center">
+    <a href="https://youtu.be/3vsk00a4XBg">Video</a><a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9636537">Paper</a> <a href="{{ site.baseurl }}/research/2021/09/27/VerifyingTransition/" >Blog</a>
+  </div></div>
+</div>
+<hr>
+<div class="row">
+  <div class="image">
+    <img class="rounded-corners" src="/website/img/ResearchFigs/PBLGait.png" alt="Snow" style="width:100%">
+  </div>
+  <div class="text">
+    <b>Preference-Based Learning for User-Guided HZD Gait Generation on Bipedal Walking Robots</b>
+    <p style="margin:15px">Maegan Tucker, <b>Noel Csomay-Shanklin</b>, Wen-Loong Ma, and Aaron D. Ames</p>
+    <p style="margin:15px"><i>ICRA 2021</i></p>
+  <div style="vertical-align:middle" class="notepad-index-post-tags" style="text-align:center">
+    <a href="https://vimeo.com/473917519">Video</a><a href="http://ames.caltech.edu/tucker2020preference.pdf">Paper</a> <a href="{{ site.baseurl }}/research/2021/05/30/PBLGait/" >Blog</a>
+  </div></div>
+</div>
+<hr>
+<div class="row">
+  <div class="image">
+    <img class="rounded-corners" src="/website/img/ResearchFigs/amber.png" alt="Snow" style="width:100%">
+  </div>
+  <div class="text">
+    <b>Episodic Learning for Safe Bipedal Locomotion with Control Barrier Functions and Projection-to-State Safety</b>
+    <p style="margin:15px"><b>Noel Csomay-Shanklin</b>*, Ryan K. Cosner*, Min Dai*, Andrew J. Taylor, and Aaron D. Ames</p>
+    <p style="margin:15px"><i>L4DC 2021</i></p>
+  <div style="vertical-align:middle" class="notepad-index-post-tags" style="text-align:center">
+    <a href="https://vimeo.com/481809664">Video</a><a href="http://proceedings.mlr.press/v144/csomay-shanklin21a/csomay-shanklin21a.pdf">Paper</a> <a href="{{ site.baseurl }}/research/2021/05/21/Episodic/" >Blog</a>
+  </div></div>
+</div>
+<hr>
+<div class="row">
+  <div class="image">
+    <img class="rounded-corners" src="/website/img/ResearchFigs/YoungML.png" alt="Snow" style="width:100%">
+  </div>
+  <div class="text">
+    <b>A Machine Learning Strategy for Locomotion Classification and Parameter Estimation Using Fusion of Wearable Sensors</b>
+    <p style="margin:15px">Jonathan Camargo, Will Flanagan, <b>Noel Csomay-Shanklin</b>, Bharat Kanwar, and Aaron Young</p>
+    <p style="margin:15px"><i>Transactions on Biomedical Engineering 2021</i></p>
+  <div style="vertical-align:middle" class="notepad-index-post-tags" style="text-align:center">
+    <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9376982">Paper</a> <a href="{{ site.baseurl }}/research/2021/03/12/YoungML/" >Blog</a>
+  </div></div>
+</div>
+<hr>
+<div class="row">
+  <div class="image">
+    <img class="rounded-corners" src="/website/img/ResearchFigs/quad.png" alt="Snow" style="width:100%">
+  </div>
+  <div class="text">
+    <b>Coupled Control Lyapunov Functions for Interconnected Systems, With Application to Quadrupedal Locomotion</b>
+    <p style="margin:15px">Wen-Loong Ma, <b>Noel Csomay-Shanklin</b>, Shishir Kolathaya, Kaveh Akbari Hamed, and Aaron D. Ames</p>
+    <p style="margin:15px"><i>RA-L 2021</i></p>
+  <div style="vertical-align:middle" class="notepad-index-post-tags" style="text-align:center">
+    <a href="https://youtu.be/D0LWc7VFxlM">Video</a><a href="http://ames.caltech.edu/ma2021coupledrobot.pdf">Paper</a> <a href="{{ site.baseurl }}/research/2021/03/11/Coupled3/" >Blog</a>
+  </div></div>
+</div>
+<hr>
+<h2>2020</h2>
+<hr>
+<div class="row">
+  <div class="image">
+    <img class="rounded-corners" src="/website/img/ResearchFigs/quadSlope.png" alt="Snow" style="width:100%">
+  </div>
+  <div class="text">
+    <b>Quadrupedal Robotic Walking on Sloped Terrains via Exact Decomposition into Coupled Bipedal Robots</b>
+    <p style="margin:15px">Wen-Loong Ma, <b>Noel Csomay-Shanklin</b>, and Aaron D. Ames</p>
+    <p style="margin:15px"><i>IROS 2020</i></p>
+  <div style="vertical-align:middle" class="notepad-index-post-tags" style="text-align:center">
+    <a href="https://youtu.be/uJedboyzDjc">Video</a><a href="http://ames.caltech.edu/ma2020quadrupedal.pdf">Paper</a> <a href="{{ site.baseurl }}/research/2020/11/25/Coupled2/" >Blog</a>
+  </div></div>
+</div>
+<hr>
+<div class="row">
+  <div class="image">
+    <img class="rounded-corners" src="/website/img/ResearchFigs/skeleton.png" alt="Snow" style="width:100%">
+  </div>
+  <div class="text">
+    <b>Automated Gap-Filling for Marker-Based Biomechanical Motion Capture Data</b>
+    <p style="margin:15px">Jonathan Camargo, Aditya Ramanathan, <b>Noel Csomay-Shanklin</b>, and Aaron Young</p>
+    <p style="margin:15px"><i>Computer Methods in Biomechanics and Biomedical Engineering 2020</i></p>
+  <div style="vertical-align:middle" class="notepad-index-post-tags" style="text-align:center">
+    <a href="{{ site.baseurl }}/research/2020/11/17/GapFilling/" >Blog</a>
+  </div></div>
+</div>
+<hr>
+<div class="row">
+  <div class="image">
+    <img class="rounded-corners" src="/website/img/ResearchFigs/holotile.png" alt="Snow" style="width:100%">
+  </div>
+  <div class="text">
+    <b>Passive Dynamic Balancing and Walking in Actuated Environments</b>
+    <p style="margin:15px">Jenna Reher*, <b>Noel Csomay-Shanklin</b>*, David L. Christensen, Bobby Bristow, Aaron D. Ames, and Lanny Smoot</p>
+    <p style="margin:15px"><i>ICRA 2020</i></p>
+  <div style="vertical-align:middle" class="notepad-index-post-tags" style="text-align:center">
+    <a href="https://youtu.be/4IXjD6hlbMg?si=KMcnEC8TtKUALn4d">Video</a><a href="http://ames.caltech.edu/reher2020passive.pdf">Paper</a> <a href="{{ site.baseurl }}/research/2020/05/31/Coupled1/" >Blog</a>
+  </div></div>
+</div>
+<hr>
+<div class="row">
+  <div class="image">
+    <img class="rounded-corners" src="/website/img/ResearchFigs/quadDecomp.png" alt="Snow" style="width:100%">
+  </div>
+  <div class="text">
+    <b>Coupled Control Systems: Periodic Orbit Generation with Application to Quadrupedal Locomotion</b>
+    <p style="margin:15px">Wen-Loong Ma, <b>Noel Csomay-Shanklin</b>, and Aaron D. Ames</p>
+    <p style="margin:15px"><i>L-CSS 2020</i></p>
+  <div style="vertical-align:middle" class="notepad-index-post-tags" style="text-align:center">
+    <a href="https://youtu.be/GlpgSXMinoU">Video</a><a href="https://arxiv.org/pdf/2003.08507">Paper</a> <a href="{{ site.baseurl }}/research/2020/03/18/Coupled1/" >Blog</a>
+  </div></div>
+</div>
+<hr>
+<h2>2019</h2>
+<hr>
+<div class="row">
+  <div class="image">
+    <img class="rounded-corners" src="/website/img/ResearchFigs/hopper1.png" alt="Snow" style="width:100%">
+  </div>
+  <div class="text">
+    <b>Design and Comparative Analysis of 1D Hopping Robots</b>
+    <p style="margin:15px">Eric Ambrose, <b>Noel Csomay-Shanklin</b>, Yizhar Or, and Aaron D. Ames</p>
+    <p style="margin:15px"><i>IROS 2019</i></p>
+  <div style="vertical-align:middle" class="notepad-index-post-tags" style="text-align:center">
+    <a href="http://ames.caltech.edu/ambrose2019design.pdf">Paper</a> <a href="{{ site.baseurl }}/research/2019/11/04/1DHopper/" >Blog</a>
+  </div></div>
+</div>
+<hr>
+<div class="row">
+  <div class="image">
+    <img class="rounded-corners" src="/website/img/ResearchFigs/arm.png" alt="Snow" style="width:100%">
+  </div>
+  <div class="text">
+    <b>Sampling Tool Concepts for Enceladus Lander In-Situ Analysis</b>
+    <p style="margin:15px">Mircea Badescu, Paul Backes, Scott Moreland, Alexander Brinkman, Dario Riccobono, Matthew Dotson, <b>Noel Csomay-Shanklin</b>, Samuel Ubellacker, Jamie Molaro, Mathieu Choukroun, and Giancarlo Genta</p>
+    <p style="margin:15px"><i>Aerospace Conference 2019</i></p>
+  <div style="vertical-align:middle" class="notepad-index-post-tags" style="text-align:center">
+    <a href="{{ site.baseurl }}/research/2019/03/02/Enceladus/" >Blog</a>
   </div></div>
 </div>
