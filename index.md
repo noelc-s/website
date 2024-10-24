@@ -1,9 +1,8 @@
 ---
 layout: page
+description: 
 ---
 	
-    
-<img align="left" src="https://noelc-s.github.io/website/img/sierras_1.jpg" width="200" hspace="20">
 
 Graduate Student  
 <a href="http://www.cms.caltech.edu/academics/grad_cds">Control and Dynamical Systems  
@@ -13,8 +12,6 @@ California Institute of Technology</a>
 noelcs [at] caltech [dot] edu
 
 <a href="{{ site.baseurl }}/img/Noel_Csomay-Shanklin_CV.pdf">Curriculum Vitae</a> 
-
-<br>
 
 At the moment, I'm very excited about the underlying structure of optimal control, and how it can be used to synthesize agile behaviors for legged systems. I am also interested in the theory of hierarchical control, and the use of control architechtures as a means of improving the efficiencly, feasiibility, and generalizability of autonomy stacks. Please feel free to reach me over email if these are similarly of interest to you!
 
