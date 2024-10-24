@@ -3,8 +3,8 @@ display_to_feed: true
 layout:     post
 title:      Mathematical Terminology
 author:     Noel Csomay-Shanklin
-tags: 		  Reading 
-category:   reading
+tags:       Thoughts
+category:   thoughts
 ---
 $\require{cancel}$
 A list of mathematical terms I have come across and needed to look up.

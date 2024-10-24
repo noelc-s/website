@@ -4,8 +4,8 @@ layout:     post
 title:      Do Discretization and Linearization Commute?
 subtitle:   Yes, up to first order (at least)
 author:     Noel Csomay-Shanklin
-tags:       Reading
-category:   reading
+tags:       Thoughts
+category:   thoughts
 ---
 <!-- ## Table of Contents
 {: .no_toc}

@@ -4,8 +4,8 @@ layout:     post
 title:		Stochastic Least Squares
 subtitle:   An Application of Modules
 author:     Noel Csomay-Shanklin
-tags: 		Math Reading
-category:   reading
+tags:       Math Thoughts
+category:   thoughts
 ---
 ## Table of Contents
 {: .no_toc}

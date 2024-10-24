@@ -3,9 +3,8 @@ display_to_feed: true
 layout:     post
 title:      Useful Websites
 author:     Noel Csomay-Shanklin
-tags: 		  Reading 
-subtitle:  	
-category:   reading
+tags:       Thoughts
+category:   thoughts
 ---
 Video Compression:
 * [YouTube](https://youtube.com)

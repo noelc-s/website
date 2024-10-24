@@ -4,8 +4,8 @@ layout:     post
 title:      The Role of Abstraction
 subtitle:   Clark
 author:     Noel Csomay-Shanklin
-tags: 		  Reading
-category:   PersonalReading
+tags:       Thoughts
+category:   thoughts
 ---
 
 #### A quote from "Elements of Abstract Algebra," written by Allan Clark

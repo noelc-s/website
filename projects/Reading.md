@@ -1,9 +1,9 @@
 ---
 layout: project
-title: "Reading"
-displayName: "Reading"
+title: "Thoughts"
+displayName: "Thoughts"
 disp: "False"
-description: "Notes from Academic Readings"
+description: "Thoughts from Academic Readings"
 header-img: "img/home-bg.jpg"
-category: reading
+category: thoughts
 ---

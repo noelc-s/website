@@ -4,8 +4,8 @@ layout:     post
 title:      Brouwer's fixed-point theorem
 subtitle:   An Application of Homology and Category Theory
 author:     Noel Csomay-Shanklin
-tags: 		Reading
-category:   reading
+tags:       Thoughts
+category:   thoughts
 ---
 
 ### Table of Contents

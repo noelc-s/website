@@ -4,8 +4,8 @@ layout:     post
 title:      Informative Videos
 subtitle:   That have shaped my perspective
 author:     Noel Csomay-Shanklin
-tags: 	    Reading
-category:   reading
+tags:       Thoughts
+category:   thoughts
 ---
 
 ## Insightful Lectures

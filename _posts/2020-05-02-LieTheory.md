@@ -4,8 +4,8 @@ layout:     post
 title:      Lie Theory
 subtitle:   ""
 author:     Noel Csomay-Shanklin
-tags:       Reading
-category:   reading
+tags:       Thoughts
+category:   thoughts
 ---
 ## Table of Contents
 {: .no_toc}
