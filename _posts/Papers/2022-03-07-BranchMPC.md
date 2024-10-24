@@ -1,5 +1,5 @@
 ---
-display_to_feed: false
+display_to_feed: true
 layout:     post
 title:      "Interactive multi-modal motion planning with Branch Model Predictive Control"
 author:     Noel Csomay-Shanklin

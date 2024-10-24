@@ -1,5 +1,5 @@
 ---
-display_to_feed: false
+display_to_feed: true
 layout:     post
 title:      "Automated gap-filling for marker-based biomechanical motion capture data"
 author:     Noel Csomay-Shanklin

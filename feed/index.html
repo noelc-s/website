@@ -1,7 +1,10 @@
 ---
 layout: page
+title: Feed
+description: A collection of things I would like to remember
 ---
-				<table>
+
+<table>
 {% for post in paginator.posts %}
 {% if post.display_to_feed %}
 <div class="post-preview">
@@ -46,4 +49,3 @@ layout: page
     {% endif %}
 </ul>
 {% endif %}
-

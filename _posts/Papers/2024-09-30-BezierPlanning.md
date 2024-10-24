@@ -1,5 +1,5 @@
 ---
-display_to_feed: false
+display_to_feed: true
 layout:     post
 title:      "Dynamically Feasible Path Planning in Cluttered Environments via Reachable Bézier Polytopes"
 author:     Noel Csomay-Shanklin

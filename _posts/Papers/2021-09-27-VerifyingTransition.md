@@ -1,5 +1,5 @@
 ---
-display_to_feed: false
+display_to_feed: true
 layout:     post
 title:      "Verifying Safe Transitions between Dynamic Motion Primitives on Legged Robots"
 author:     Noel Csomay-Shanklin

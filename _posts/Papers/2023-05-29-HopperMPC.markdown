@@ -1,5 +1,5 @@
 ---
-display_to_feed: false
+display_to_feed: true
 layout:     post
 title:      "Nonlinear Model Predictive Control of a 3D Hopping Robot: Leveraging Lie Group Integrators for Dynamically Stable Behaviors"
 author:     Noel Csomay-Shanklin

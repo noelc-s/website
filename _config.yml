@@ -1,7 +1,6 @@
 # Site settings
 title: "Noel Csomay-Shanklin"
 default_header: ""
-description: "A collection of things I would like to remember"
 url: "https://noelc-s.github.io"
 future: true
 
@@ -23,7 +22,8 @@ plugins: [jekyll-paginate]
 markdown: kramdown
 highlighter: rouge
 permalink: pretty
-paginate: 20
+paginate: 2000
+paginate_path: "feed/page:num"
 exclude:
   - Gemfile
   - Gemfile.lock

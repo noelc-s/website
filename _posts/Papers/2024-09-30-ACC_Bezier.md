@@ -1,5 +1,5 @@
 ---
-display_to_feed: false
+display_to_feed: true
 layout:     post
 title:      Bezier Reachable Polytopes
 subtitle:   Efficient Certificates for Robust Motion Planning with Layered Architectures

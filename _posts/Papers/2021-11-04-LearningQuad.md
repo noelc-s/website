@@ -1,5 +1,5 @@
 ---
-display_to_feed: false
+display_to_feed: true
 layout:     post
 title:      "Online Learning of Unknown Dynamics for Model-Based Controllers in Legged Locomotion"
 author:     Noel Csomay-Shanklin

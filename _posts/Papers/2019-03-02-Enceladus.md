@@ -1,5 +1,5 @@
 ---
-display_to_feed: false
+display_to_feed: true
 layout:     post
 title:      Sampling tool concepts for Enceladus lander in-situ analysis
 author:     Noel Csomay-Shanklin

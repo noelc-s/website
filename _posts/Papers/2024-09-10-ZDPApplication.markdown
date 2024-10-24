@@ -1,5 +1,5 @@
 ---
-display_to_feed: false
+display_to_feed: true
 layout:     post
 title:      "Robust Agility via Learned Zero Dynamics Policies"
 author:     Noel Csomay-Shanklin

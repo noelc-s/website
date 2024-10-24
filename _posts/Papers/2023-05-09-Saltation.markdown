@@ -1,5 +1,5 @@
 ---
-display_to_feed: false
+display_to_feed: true
 layout:     post
 title:      "Robust Bipedal Locomotion: Leveraging Saltation Matrices for Gait Optimization"
 author:     Noel Csomay-Shanklin

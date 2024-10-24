@@ -1,5 +1,5 @@
 ---
-display_to_feed: false
+display_to_feed: true
 layout:     post
 title:      "Neural Gaits: Learning Bipedal Locomotion via Control Barrier Functions and Zero Dynamics Policies"
 author:     Noel Csomay-Shanklin
