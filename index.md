@@ -22,7 +22,7 @@ description: Robot Control Researcher and Outdoor Sports Enthusiast
 </style>
 </head>
 
-Hi, I'm Noel Csomay-Shanklin. I'm currently finishing my PhD in Control and Dynamical Systems at Caltech and am <b>on the job market</b>. I’m excited to join a team and help develop the next generation of agile robotic systems. My research is centered around <b>hierarchical</b> and <b>optimization-based control</b> strategies that enable dynamic behaviors for <b>legged robots</b>.
+Hi, I'm Noel Csomay-Shanklin. I have just defended <a href="{{ site.baseurl }}/Noel_Csomay_Shanklin_Thesis.pdf">my PhD</a> in Control and Dynamical Systems at Caltech, and am looking forward to a few months of restorative hiking before starting as a Senior Robotics/AI Engineer at Figure AI. My research has been centered around <b>hierarchical</b> and <b>optimization-based control</b> strategies that enable dynamic behaviors for <b>legged robots</b>.
 
 I'm known among my peers for getting things to work on hardware, and I pride myself on leveraging my hands-on expertise to bring theory into practice. For more information about my research, check out this <a href="{{ site.baseurl }}/research/2024/10/21/ResearchOverview/">Research Overview</a>, or see my <a href="{{ site.baseurl }}/img/Noel_Csomay-Shanklin_CV.pdf">Curriculum Vitae</a>. Please feel free to reach out at noelcs [at] caltech [dot] edu to discuss my research or potential work opportunities.
 

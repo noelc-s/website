@@ -23,6 +23,13 @@ ffmpeg -r ~FramesPerSecond~ -i Input.avi -y -an -c:v libx264 -preset veryslow -q
 :set first-page-column 1:1
 {% endhighlight %}
 
+### Auto recompile latex
+{% highlight bash %}
+zathura main.pdf &
+fswatch -o main.tex | xargs -n1 -I{} pdflatex -interaction nonstopmode  main.tex
+{% endhighlight %}
+
+
 ## Matlab
 ### Fullscreen Figure
 {% highlight matlab %}
